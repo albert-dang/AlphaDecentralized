@@ -2,7 +2,7 @@ import './Terminal.css'
 
 function Terminal(){
     return(
-        <main className='Terminal'>
+        <body className='Terminal'>
             <form>
                 <label className='ConsoleLabel'>
                     Console :
@@ -10,7 +10,7 @@ function Terminal(){
                 </label>
                 <input type='submit' value="Let's make money..." />
             </form>
-        </main>
+        </body>
     )
 }
 

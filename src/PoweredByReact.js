@@ -1,9 +1,8 @@
 import logo from './logo.svg'
 
-
 function PoweredByReact(){
     return(
-        <header className="App-header">
+        <header className="React-header">
             <img src={logo} className="App-logo" alt="logo" />
             <p>Powered by</p>
             <a

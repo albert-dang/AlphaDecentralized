@@ -18,7 +18,6 @@
     justify-content: center;
     font-size: calc(8px + 2vmin);
     color: white;
-    overflow: auto
   }
   
   .App-link {

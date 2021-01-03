@@ -3,7 +3,7 @@ import './PoweredByReact.css'
 
 function PoweredByReact(){
     return(
-        <header className="React-header">
+        <div className="React-header">
             <img src={logo} className="App-logo" alt="logo" />
             <p>Powered by</p>
             <a
@@ -14,7 +14,7 @@ function PoweredByReact(){
             >
                 React
             </a>
-        </header>
+        </div>
     )
 }
 

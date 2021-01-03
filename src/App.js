@@ -5,7 +5,9 @@ import './App.css'
 function App(){
   return (
     <div className="App">
-      <PoweredByReact />
+      <header>
+        <PoweredByReact />
+      </header>
       <main>
         <Terminal />
       </main>

@@ -2,13 +2,13 @@ import './Terminal.css'
 
 function Terminal(){
     return(
-        <div className="Terminal">
+        <div className='Terminal'>
             <form>
-                <label>
-                    Console:
-                    <input type="text" name="consoleInput" />
+                <label className='ConsoleLabel'>
+                    Console :
+                    <input type='text' name='consoleInput' />
                 </label>
-                <input type="submit" value="Let's make money..." />
+                <input type='submit' value="Let's make money..." />
             </form>
         </div>
     )

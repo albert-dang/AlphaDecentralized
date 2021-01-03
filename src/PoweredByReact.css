@@ -10,8 +10,8 @@
   }
   
   .React-header {
-    max-height: 32vh;
-    min-height: 32vh;
+    max-height: 16vh;
+    min-height: 16vh;
     display: flex;
     flex-direction: column;
     align-items: center;

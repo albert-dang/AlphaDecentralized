@@ -1,3 +1,7 @@
+.ConsoleLabel {
+    color: white
+}
+
 .Terminal {
-    top: 62px;
+    top: 32vh;
 }

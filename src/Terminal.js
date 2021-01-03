@@ -5,7 +5,7 @@ function Terminal(){
         <body>
             <form className = 'Terminal'>
                 <label className='Console'>
-                    Console :
+                    Console: 
                     <input type='text' name='consoleInput' />
                 </label>
                 <br></br>

@@ -3,5 +3,6 @@
 }
 
 .Terminal {
-    top: 32vh;
+    background-color: #282c34;
+    top: 320px;
 }

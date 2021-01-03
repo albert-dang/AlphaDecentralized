@@ -5,12 +5,10 @@ import './App.css'
 
 function App(){
   return (
-    <div className='App'>
-      <React.Fragment>
-        <PoweredByReact />
-        <Terminal />
-      </React.Fragment>
-    </div>
+    <React.Fragment>
+      <PoweredByReact />
+      <Terminal />
+    </React.Fragment>
   );
 }
 

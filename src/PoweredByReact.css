@@ -10,6 +10,7 @@
   }
   
   .React-header {
+    background-color: #282c34;
     max-height: 32vh;
     min-height: 32vh;
     display: flex;

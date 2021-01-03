@@ -1,4 +1,5 @@
 import logo from './logo.svg'
+import './PoweredByReact.css'
 
 function PoweredByReact(){
     return(

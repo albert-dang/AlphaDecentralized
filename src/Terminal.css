@@ -1,8 +1,9 @@
-.ConsoleLabel {
-    color: white
+.Console{
+    color: white;
+    position: absolute;
+    top: 32vh;
 }
 
-.Terminal {
+.Terminal{
     background-color: #282c34;
-    top: 320px;
 }

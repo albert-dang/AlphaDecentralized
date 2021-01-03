@@ -1,9 +1,8 @@
 .Console{
     color: white;
-    position: absolute;
     top: 32vh;
 }
 
-.Terminal{
+.Terminal {
     background-color: #282c34;
 }

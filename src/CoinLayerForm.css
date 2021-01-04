@@ -1,3 +1,7 @@
+a {
+    color: #61dafb;
+}
+
 label, input {
     display: block;
 }
@@ -5,12 +9,12 @@ label, input {
 label {
     color: white;
     margin-bottom: 20px;
-    margin-left: 16px;
 }
 
 .QueryForm{
     background-color: rgb(36, 56, 56);
-    padding-bottom: 10vh;
-    padding-top: 10vh;
+    padding-bottom: 16vh;
+    padding-left: 16px;
+    padding-top: 6vh;
     top: 32vh;
 }

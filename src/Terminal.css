@@ -1,17 +1,20 @@
 .CoinLayerKeyLabel{
-    padding: 13px;
+    color: white;
+    padding-bottom: 32px;
 }
 
 .StartDateLabel{
-    padding: 13px;
+    color: white;
+    padding-bottom: 32px;
 }
 
 .EndDateLabel{
-    padding: 13px;
+    color: white;
+    padding-bottom: 32px;
 }
 
 .QueryLabel{
-    padding: 31px;
+    padding-bottom: 1618px;
 }
 
 .Console{

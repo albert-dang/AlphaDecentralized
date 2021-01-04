@@ -14,7 +14,7 @@
     margin: 0;
     width: 16vw;
     display: inline-block;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     font-size: calc(8px + 2vmin);

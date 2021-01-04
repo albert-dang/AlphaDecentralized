@@ -2,6 +2,7 @@ import PoweredByCoinLayer from "./PoweredByCoinLayer";
 
 import PoweredByCoinLayer from './PoweredByCoinLayer'
 import PoweredByReact from './PoweredByReact'
+import './ShowcaseContainer.css'
 
 export default function ShowCaseContainer(){
     return(

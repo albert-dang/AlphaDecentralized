@@ -1,5 +1,17 @@
-br{
+.CoinLayerKeyLabel{
     padding: 13px;
+}
+
+.StartDateLabel{
+    padding: 13px;
+}
+
+.EndDateLabel{
+    padding: 13px;
+}
+
+.QueryLabel{
+    padding: 31px;
 }
 
 .Console{

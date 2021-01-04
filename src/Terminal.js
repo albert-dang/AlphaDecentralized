@@ -3,22 +3,22 @@ import './Terminal.css'
 function Terminal(){
     return(
         <form className='Terminal'>
-            <label className='coinLayerKeyLabel'>
+            <label className='CoinLayerKeyLabel'>
                 API Key:
                 <input type='text' name='coinLayerKey' />
             </label>
             <br></br>
-            <label className='startDateLabel'>
+            <label className='StartDateLabel'>
                 Start Date:
                 <input type='text' name='startDate' />
             </label>
             <br></br>
-            <label className='endDateLabel'>
+            <label className='EndDateLabel'>
                 End Date:
                 <input type='text' name='endDate' />
             </label>
             <br></br>
-            <input type='submit' value="Query" />
+            <input className='QueryButton' type='submit' value="Query" />
         </form>
     )
 }

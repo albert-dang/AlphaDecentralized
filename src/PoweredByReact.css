@@ -17,6 +17,8 @@
     font-size: calc(8px + 2vmin);
     color: white;
     flex: 2;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 25%;
   }
   

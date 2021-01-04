@@ -6,10 +6,9 @@ import './App.css'
 
 export default function App(){
   return (
-    <React.Fragment>
+    <>
       <CoinLayerForm />
-      <PoweredByCoinLayer />
-      <PoweredByReact />
-    </React.Fragment>
+      <PoweredByCoinLayer /> <PoweredByReact />
+    </>
   );
 }

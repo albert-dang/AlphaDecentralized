@@ -4,7 +4,7 @@ import './PoweredByCoinLayer.css'
 export default function PoweredByCoinLayer(){
     return(
         <div className='CoinLayer-showcase'>
-            <img src={logo} className='App-logo' alt='coinlayer logo' />
+            <img src={logo} className='CoinLayer-logo' alt='coinlayer logo' />
             <a
                 className='App-link'
                 href='https://coinlayer.com'

@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/AlphaDecentralized/static/css/main.c0297b21.chunk.css",
-    "main.js": "/AlphaDecentralized/static/js/main.0467b933.chunk.js",
-    "main.js.map": "/AlphaDecentralized/static/js/main.0467b933.chunk.js.map",
+    "main.css": "/AlphaDecentralized/static/css/main.c1f433b9.chunk.css",
+    "main.js": "/AlphaDecentralized/static/js/main.e2b194f6.chunk.js",
+    "main.js.map": "/AlphaDecentralized/static/js/main.e2b194f6.chunk.js.map",
     "runtime-main.js": "/AlphaDecentralized/static/js/runtime-main.476cf961.js",
     "runtime-main.js.map": "/AlphaDecentralized/static/js/runtime-main.476cf961.js.map",
     "static/js/2.54722aac.chunk.js": "/AlphaDecentralized/static/js/2.54722aac.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.e5bc59a1.chunk.js": "/AlphaDecentralized/static/js/3.e5bc59a1.chunk.js",
     "static/js/3.e5bc59a1.chunk.js.map": "/AlphaDecentralized/static/js/3.e5bc59a1.chunk.js.map",
     "index.html": "/AlphaDecentralized/index.html",
-    "static/css/main.c0297b21.chunk.css.map": "/AlphaDecentralized/static/css/main.c0297b21.chunk.css.map",
+    "static/css/main.c1f433b9.chunk.css.map": "/AlphaDecentralized/static/css/main.c1f433b9.chunk.css.map",
     "static/js/2.54722aac.chunk.js.LICENSE.txt": "/AlphaDecentralized/static/js/2.54722aac.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/AlphaDecentralized/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.476cf961.js",
     "static/js/2.54722aac.chunk.js",
-    "static/css/main.c0297b21.chunk.css",
-    "static/js/main.0467b933.chunk.js"
+    "static/css/main.c1f433b9.chunk.css",
+    "static/js/main.e2b194f6.chunk.js"
   ]
 }

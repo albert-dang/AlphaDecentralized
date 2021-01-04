@@ -1,13 +1,13 @@
 import React from 'react'
 import PoweredByReact from './PoweredByReact'
-import CoinLayerQuery from './CoinLayerForm'
+import CoinLayerForm from './CoinLayerForm'
 import './App.css'
 
 function App(){
   return (
     <React.Fragment>
       <PoweredByReact />
-      <CoinLayerQuery />
+      <CoinLayerForm />
     </React.Fragment>
   );
 }

@@ -1,4 +1,5 @@
 .float-container{
     background-color: #282c34;
+    display: inline-block;
     padding-bottom: 64px;
 }

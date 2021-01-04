@@ -11,15 +11,12 @@
   
   .React-showcase{
     margin: 0;
-    display: flex;
     align-items: center;
-    justify-content: center;
+    display: inline-block;
     font-size: calc(8px + 2vmin);
-    color: white;
-    flex: 2;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 25%;
+    justify-content: center;
+    position: absolute;
+    width: 50px;
   }
   
   @keyframes App-logo-spin {

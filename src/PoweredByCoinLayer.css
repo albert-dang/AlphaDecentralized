@@ -4,14 +4,9 @@
   }
   
 .CoinLayer-showcase{
-    margin: 0;
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: inline-block;
     align-items: center;
     justify-content: center;
     font-size: calc(8px + 2vmin);
-    color: white;
-    width: 50%;
+    margin-left: 50px;
   }

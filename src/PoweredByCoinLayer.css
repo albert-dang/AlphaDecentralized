@@ -4,7 +4,6 @@
   }
   
 .CoinLayer-showcase{
-    background-color: #282c34;
     margin: 0;
     display: flex;
     flex: 1;
@@ -12,5 +11,5 @@
     justify-content: center;
     font-size: calc(8px + 2vmin);
     color: white;
-    width: 69%;
+    width: 50%;
   }

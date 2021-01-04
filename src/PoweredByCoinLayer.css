@@ -3,7 +3,7 @@
     pointer-events: none;
   }
   
-  .CoinLayer-showcase{
+.CoinLayer-showcase{
     background-color: #282c34;
     max-height: 16vh;
     min-height: 16vh;
@@ -13,8 +13,4 @@
     justify-content: center;
     font-size: calc(8px + 2vmin);
     color: white;
-  }
-  
-  .App-link {
-    color: #61dafb;
   }

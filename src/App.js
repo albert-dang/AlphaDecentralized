@@ -1,6 +1,6 @@
 import React from 'react'
 import PoweredByReact from './PoweredByReact'
-import CoinLayerQuery from './CoinLayerQuery'
+import CoinLayerQuery from './CoinLayerForm'
 import './App.css'
 
 function App(){

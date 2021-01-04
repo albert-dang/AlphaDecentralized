@@ -12,14 +12,13 @@
   .React-showcase{
     background-color: #282c34;
     margin: 0;
-    width: 8vw;
-    display: inline-block;
-    flex-direction: row;
+    display: flex;
     align-items: center;
     justify-content: center;
     font-size: calc(8px + 2vmin);
     color: white;
-    padding-bottom: 26vh;
+    flex: 2;
+    width: 31%;
   }
   
   @keyframes App-logo-spin {

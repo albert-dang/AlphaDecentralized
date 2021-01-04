@@ -8,7 +8,7 @@ export default function App(){
   return (
     <>
       <CoinLayerForm />
-      <span><PoweredByReact /></span><span><PoweredByCoinLayer /></span>
+      <PoweredByReact /> <PoweredByCoinLayer />
     </>
   );
 }

@@ -10,5 +10,6 @@ label {
 
 .QueryForm{
     background-color: rgb(36, 56, 56);
+    padding-top: 10vh;
     top: 32vh;
 }

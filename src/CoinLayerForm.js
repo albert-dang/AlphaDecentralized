@@ -31,7 +31,7 @@ class CoinLayerForm extends Component{
         return(
             <form className='QueryForm' onSubmit={this.onSubmit}>
                 <label>Cryptocurrencies</label>
-                <label><a href='https://coinlayer.com/signup/free'>Need a free API Key?</a></label>
+                <label><a href='https://coinlayer.com/signup/free' target='_blank'>Need a free API Key?</a></label>
                 <label className='CoinLayerKeyLabel'>
                     API Key:
                     <input type='text' name='apiKey' value={apiKey} onChange={this.onChange}/>

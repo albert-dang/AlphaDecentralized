@@ -5,9 +5,10 @@ label, input {
 label {
     color: white;
     margin-bottom: 20px;
+    margin-left: 16px;
 }
 
 .QueryForm{
-    background-color: rgb(8, 66, 66);
+    background-color: rgb(36, 56, 56);
     top: 32vh;
 }

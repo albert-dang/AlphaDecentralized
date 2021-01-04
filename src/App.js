@@ -1,13 +1,13 @@
 import React from 'react'
 import PoweredByReact from './PoweredByReact'
-import Terminal from './Terminal'
+import CoinLayerQuery from './CoinLayerQuery'
 import './App.css'
 
 function App(){
   return (
     <React.Fragment>
       <PoweredByReact />
-      <Terminal />
+      <CoinLayerQuery />
     </React.Fragment>
   );
 }

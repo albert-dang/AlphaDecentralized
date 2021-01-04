@@ -1,28 +1,24 @@
-import './Terminal.css'
+import './CoinLayerQuery.css'
 
-function Terminal(){
+function CoinLayerQuery(){
     return(
-        <div className='CoinLayerQuery'>
-            <form className='Terminal'>
+            <form className='QueryForm'>
                 <label className='CoinLayerKeyLabel'>
                     API Key:
                     <input type='text' name='coinLayerKey' />
                 </label>
-                <br></br>
                 <label className='StartDateLabel'>
                     Start Date:
                     <input type='text' name='startDate' />
                 </label>
-                <br></br>
                 <label className='EndDateLabel'>
                     End Date:
                     <input type='text' name='endDate' />
                 </label>
-                <br></br>
+
                 <input className='QueryButton' type='submit' value="Query" />
             </form>
-        </div>
     )
 }
 
-export default Terminal
+export default CoinLayerQuery

@@ -1,0 +1,13 @@
+label, input {
+    display: block;
+}
+
+label {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.QueryForm{
+    background-color: rgb(8, 66, 66);
+    top: 32vh;
+}

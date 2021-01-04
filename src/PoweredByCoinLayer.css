@@ -1,7 +1,6 @@
 .CoinLayer-logo {
-    height: 40vmin;
     pointer-events: none;
-    height: 8vh;
+    max-height: 8vh;
   }
   
 .CoinLayer-showcase{

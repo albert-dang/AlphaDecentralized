@@ -1,15 +1,15 @@
 import React from 'react'
-import PoweredByReact from './PoweredByReact'
 import CoinLayerForm from './CoinLayerForm'
+import PoweredByCoinLayer from './PoweredByCoinLayer'
+import PoweredByReact from './PoweredByReact'
 import './App.css'
 
-function App(){
+export default function App(){
   return (
     <React.Fragment>
       <CoinLayerForm />
+      <PoweredByCoinLayer />
       <PoweredByReact />
     </React.Fragment>
   );
 }
-
-export default App

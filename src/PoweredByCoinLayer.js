@@ -1,17 +1,17 @@
-import logo from './logo.svg'
-import './PoweredByReact.css'
+import logo from './coinlayer_logo.svg'
+import './PoweredByCoinLayer.css'
 
-export default function PoweredByReact(){
+export default function PoweredByCoinLayer(){
     return(
-        <div className="React-showcase">
+        <div className="CoinLayer-showcase">
             <img src={logo} className="App-logo" alt="logo" />
             <a
                 className="App-link"
-                href="https://reactjs.org"
+                href="https://coinlayer.com"
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                React
+                coinlayer
             </a>
         </div>
     )

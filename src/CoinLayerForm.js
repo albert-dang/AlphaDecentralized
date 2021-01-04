@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import axios from 'axios'
 import './CoinLayerForm.css'
 
-class CoinLayerForm extends Component{
+export default class CoinLayerForm extends Component{
     constructor(){
         super()
         this.state = {
@@ -51,5 +51,3 @@ class CoinLayerForm extends Component{
         )
     }
 }
-
-export default CoinLayerForm

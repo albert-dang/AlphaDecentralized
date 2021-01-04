@@ -6,8 +6,8 @@ import './App.css'
 function App(){
   return (
     <React.Fragment>
-      <PoweredByReact />
       <CoinLayerForm />
+      <PoweredByReact />
     </React.Fragment>
   );
 }

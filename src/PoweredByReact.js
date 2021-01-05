@@ -3,11 +3,10 @@ import './PoweredByReact.css'
 
 export default function PoweredByReact(){
     return(
-        <div className="React-showcase">
-            <a href="https://reactjs.org">
+        <a href="https://reactjs.org">
+            <div className="React-showcase">
                 <img src={logo} className="App-logo" alt="react logo"/>
-            </a>
-            
-        </div>
+            </div>
+        </a>
     )
 }

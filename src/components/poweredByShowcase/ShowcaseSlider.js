@@ -11,10 +11,9 @@ export default class ShowcaseSlider extends Component{
     render(){
         const settings = {
             autoplay: true,
-            autoplaySpeed: 315,
+            autoplaySpeed: 62,
             dots: false,
             infinite: true,
-            speed: 315,
             slidesToShow: 1,
             slidesToScroll: 1,
         }

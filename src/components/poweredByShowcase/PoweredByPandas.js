@@ -1,5 +1,5 @@
 import logo from './Pandas_logo.svg'
-//import './PoweredByPandas.css'
+import './PoweredByPandas.css'
 
 export default function PoweredByPandas(){
     return(

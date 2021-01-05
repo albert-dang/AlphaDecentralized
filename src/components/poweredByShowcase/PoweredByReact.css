@@ -12,11 +12,8 @@
   .React-showcase{
     margin: 0;
     align-items: center;
-    display: inline-block;
-    font-size: calc(8px + 2vmin);
     justify-content: center;
     position: absolute;
-    width: 33vw;
   }
   
   @keyframes App-logo-spin {

@@ -7,8 +7,4 @@
     display: inline-block;
     align-items: center;
     justify-content: center;
-    font-size: calc(8px + 2vmin);
-    margin-left: 66vw;
-    overflow: hidden;
-    width: 33vw;
   }

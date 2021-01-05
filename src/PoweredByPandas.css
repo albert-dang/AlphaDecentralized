@@ -1,14 +1,14 @@
-.CoinLayer-logo {
+.Pandas-logo {
     pointer-events: none;
     max-height: 8vh;
   }
   
-.CoinLayer-showcase{
+.Pandas-showcase{
     display: inline-block;
     align-items: center;
     justify-content: center;
     font-size: calc(8px + 2vmin);
-    margin-left: 33vw;
+    margin-left: 66vw;
     overflow: hidden;
     width: 33vw;
   }

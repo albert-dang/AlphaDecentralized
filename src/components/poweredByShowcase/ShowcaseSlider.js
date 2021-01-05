@@ -5,7 +5,7 @@ import PoweredByPandas from './PoweredByPandas'
 import PoweredByReact from './PoweredByReact'
 import './ShowcaseSlider.css'
 
-export default class ShowcaseContainer extends Component{
+export default class ShowcaseSlider extends Component{
     render(){
         const settings = {
             autoplay: true,

@@ -1,5 +1,5 @@
 import logo from './coinlayer_logo.svg'
-import './PoweredByCoinLayer.css'
+//import './PoweredByCoinLayer.css'
 
 export default function PoweredByCoinLayer(){
     return(

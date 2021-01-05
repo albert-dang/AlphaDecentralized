@@ -16,7 +16,7 @@
     font-size: calc(8px + 2vmin);
     justify-content: center;
     position: absolute;
-    width: 32vw;
+    width: 33vw;
   }
   
   @keyframes App-logo-spin {

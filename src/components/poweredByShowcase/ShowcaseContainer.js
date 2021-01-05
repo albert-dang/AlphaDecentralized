@@ -8,7 +8,7 @@ import './ShowcaseContainer.css'
 export default class ShowcaseContainer extends Component{
     render(){
         const settings = {
-            dots: true,
+            dots: false,
             infinite: true,
             speed: 315,
             slidesToShow: 1,

@@ -8,26 +8,26 @@ import './ShowcaseContainer.css'
 export default class ShowcaseContainer extends Component{
     render(){
         const settings = {
+            autoplay: true,
+            autoplaySpeed: 315,
             dots: false,
             infinite: true,
             speed: 315,
             slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToScroll: 1,
         }
         return (
-            <div className='Showcase-container'>
-                <Slider {...settings}>
-                    <div>
-                        <PoweredByReact />
-                    </div>
-                    <div>
-                        <PoweredByCoinLayer />
-                    </div>
-                    <div>
-                        <PoweredByPandas />
-                    </div>
-                </Slider>
-            </div>
+            <Slider {...settings}>
+                <div>
+                    <PoweredByReact />
+                </div>
+                <div>
+                    <PoweredByCoinLayer />
+                </div>
+                <div>
+                    <PoweredByPandas />
+                </div>
+            </Slider>
         )
     }
 }

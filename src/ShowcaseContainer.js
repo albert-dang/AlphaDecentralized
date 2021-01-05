@@ -5,10 +5,10 @@ import './ShowcaseContainer.css'
 
 export default function ShowCaseContainer(){
     return(
-        <footer class='float-container'>
+        <div class='float-container'>
             <PoweredByReact />
             <PoweredByCoinLayer />
             <PoweredByPandas />
-        </footer>
+        </div>
     )
 }

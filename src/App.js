@@ -1,13 +1,13 @@
 import React from 'react'
 import CoinLayerForm from './components/CoinLayerForm'
-import ShowCaseContainer from './components/poweredByShowcase/ShowcaseContainer'
+import ShowcaseSlider from './components/poweredByShowcase/ShowcaseSlider'
 import './App.css'
 
 export default function App(){
   return (
     <>
       <CoinLayerForm />
-      <ShowCaseContainer />
+      <ShowcaseSlider />
     </>
   );
 }

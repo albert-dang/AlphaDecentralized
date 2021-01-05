@@ -3,7 +3,7 @@ import Slider from 'react-slick'
 import PoweredByCoinLayer from './PoweredByCoinLayer'
 import PoweredByPandas from './PoweredByPandas'
 import PoweredByReact from './PoweredByReact'
-import './ShowcaseContainer.css'
+import './ShowcaseSlider.css'
 
 export default class ShowcaseContainer extends Component{
     render(){
@@ -17,7 +17,7 @@ export default class ShowcaseContainer extends Component{
             slidesToScroll: 1,
         }
         return (
-            <Slider {...settings}>
+            <Slider {...settings} className='ShowcaseSlider'>
                 <div>
                     <PoweredByReact />
                 </div>

@@ -10,6 +10,7 @@ import './ShowcaseSlider.css'
 export default class ShowcaseSlider extends Component{
     render(){
         const settings = {
+            arrows: false,
             autoplay: true,
             autoplaySpeed: 62,
             dots: false,

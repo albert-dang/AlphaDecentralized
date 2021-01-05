@@ -1,0 +1,9 @@
+.Slick-logo {
+    pointer-events: none;
+    max-height: 8vh;
+  }
+  
+.Slick-showcase{
+    align-items: center;
+    justify-content: center;
+  }

@@ -1,7 +1,7 @@
 .Slick-logo {
-    align-items: center;
-    justify-content: center;
     pointer-events: none;
+    margin: 0;
+    margin-right: 0;
     max-height: 8vh;
   }
   

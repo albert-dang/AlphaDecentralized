@@ -21,10 +21,12 @@ input{
     border-width: 6px;
     border-style: solid;
     box-shadow: 13px 13px rgb(32, 48, 48);
+    box-sizing: border-box;
     display: block;
     height: 28px;
     margin-left: 6px;
-    width: 253px;
+    padding-left: 4px;
+    width: 286px;
 }
 
 .QueryPadder{

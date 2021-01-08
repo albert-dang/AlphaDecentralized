@@ -31,7 +31,7 @@ export default class CoinLayerForm extends Component{
         return(
             <div className='QueryPadder'>
                 <form className='QueryForm' onSubmit={this.onSubmit}>
-                    <h1>Cryptocurrencies</h1>
+                    <h1>CryptoQ</h1>
                     <label><a href='https://coinlayer.com/signup/free' rel='noreferrer' target='_blank'>Need a free API Key?</a></label>
                     <label className='CoinLayerKeyLabel'>
                         API Key:

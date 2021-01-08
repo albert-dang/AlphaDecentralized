@@ -45,9 +45,11 @@ export default class CoinLayerForm extends Component{
                         End Date:
                         <input type='text' name='endDate' value={endDate} onChange={this.onChange}/>
                     </label>
-                    <button className='QueryButton' type='submit'>
-                        Query
-                    </button>
+                    <div className='QueryButtonWrapped'>
+                        <button className='QueryButton' type='submit'>
+                            Analyze
+                        </button>
+                    </div>
                 </form>
             </div>
         )

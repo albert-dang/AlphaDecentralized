@@ -20,20 +20,22 @@ export default class ShowcaseSlider extends Component{
             slidesToScroll: 1,
         }
         return (
-            <Slider {...settings} className='ShowcaseSlider'>
-                <div>
-                    <PoweredByReact />
-                </div>
-                <div>
-                    <PoweredByCoinLayer />
-                </div>
-                <div>
-                    <PoweredByPandas />
-                </div>
-                <div>
-                    <PoweredByZipline />
-                </div>
-            </Slider>
+            <div className='SliderWrapper'>
+                <Slider {...settings} className='ShowcaseSlider'>
+                    <div>
+                        <PoweredByReact />
+                    </div>
+                    <div>
+                        <PoweredByCoinLayer />
+                    </div>
+                    <div>
+                        <PoweredByPandas />
+                    </div>
+                    <div>
+                        <PoweredByZipline />
+                    </div>
+                </Slider>
+            </div>
         )
     }
 }

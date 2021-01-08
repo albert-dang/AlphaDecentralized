@@ -1,6 +1,7 @@
 .AppWrapper{
     display: flex;
     flex-flow: column;
-    height: 86vh;
-    width: 99vw;
+    height: 100%;
+    position: relative;
+    width: 100%;
 }

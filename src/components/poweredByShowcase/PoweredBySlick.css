@@ -1,10 +1,11 @@
 .Slick-logo {
     pointer-events: none;
+    max-width: 48vw;
     max-height: 8vh;
-    text-align: center;
   }
   
 .Slick-showcase{
     align-items: center;
     justify-content: center;
+
   }

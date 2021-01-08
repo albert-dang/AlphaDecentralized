@@ -2,6 +2,10 @@ a {
     color: #61dafb;
 }
 
+h1{
+    font-size: 16;
+}
+
 label{
     color: white;
     display: block;

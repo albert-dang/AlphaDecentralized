@@ -16,9 +16,9 @@ export default class ShowcaseSlider extends Component{
         return (
             <div className='ReportWrapper'>
                 <Slider {...settings} className='ReportSlider'>
-                    <h2>Stonks 1</h2>
-                    <h2>Stonks 2</h2>
-                    <h2>Stonks 3</h2>
+                    <h2>Signals</h2>
+                    <h2>Indicators</h2>
+                    <h2>Metrics</h2>
                 </Slider>
             </div>
         )

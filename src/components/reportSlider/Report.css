@@ -2,8 +2,6 @@
     align-items: center;
     align-content: center;
     background-color: rgb(160, 104, 0);
-    border-top: 6px solid rgb(187, 128, 19);
-    border-bottom: 6px solid rgb(187, 128, 19);
     flex: 1;
     text-align: center;
 }

@@ -5,6 +5,7 @@ a {
 h1{
     color: white;
     font-size: 13;
+    text-shadow: 4px 4px rgb(32, 48, 48);
 }
 
 label{

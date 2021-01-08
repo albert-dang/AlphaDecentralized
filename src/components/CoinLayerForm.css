@@ -23,9 +23,9 @@ input{
     box-shadow: 13px 13px rgb(32, 48, 48);
     display: block;
     height: 28px;
-    margin-left: 6px;
+    max-width: 62vw; 
     padding-left: 6px;
-    width: 286px;
+    width: 246px;
 }
 
 .QueryPadder{

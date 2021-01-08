@@ -1,4 +1,6 @@
 .ReportWrapper{
     background-color: rgb(160, 104, 0);
+    border-top: 6px rgb(187, 128, 19);
+    border-bottom: 6px rgb(187, 128, 19);
     flex: 1;
 }

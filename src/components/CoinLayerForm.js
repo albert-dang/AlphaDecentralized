@@ -38,7 +38,7 @@ export default class CoinLayerForm extends Component{
                         <input type='text' name='apiKey' value={apiKey} onChange={this.onChange}/>
                     </label>
                     <label className='StartDateLabel'>
-                        Start Date:
+                        Start Date (DD/MM/YYYY):
                         <input type='text' name='startDate' value={startDate} onChange={this.onChange}/>
                     </label>
                     <label className='EndDateLabel'>

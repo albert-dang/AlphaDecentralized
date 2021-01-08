@@ -13,6 +13,7 @@ input{
     background-color: lavender;
     border: 4px teal;
     border-width: 6px;
+    border-style: solid;
     box-shadow: 4px 8px rgb(32, 48, 48);
     display: block;
     margin-left: 6px;
@@ -30,6 +31,7 @@ input{
     background-color: rgb(36, 56, 56);
     border: rgb(28, 48, 48);
     border-width: 8px;
+    border-style: solid;
     box-shadow: 8px 32px rgb(27, 41, 41);
 }
 
@@ -37,6 +39,7 @@ input{
     background-color: lavender;
     border: 4px teal;
     border-width: 6px;
+    border-style: solid;
     box-shadow: 4px 8px rgb(68, 68, 68);
     color: slategray;
     margin-left: 8px;

@@ -1,5 +1,7 @@
 .Slick-logo {
+    display: block;
     pointer-events: none;
+    margin: 0 auto;
     max-width: 48vw;
     max-height: 8vh;
   }

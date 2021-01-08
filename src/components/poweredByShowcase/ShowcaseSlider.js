@@ -13,7 +13,7 @@ export default class ShowcaseSlider extends Component{
         const settings = {
             arrows: false,
             autoplay: true,
-            autoplaySpeed: 1000,
+            autoplaySpeed: 1618,
             dots: false,
             infinite: true,
             slidesToShow: 1,

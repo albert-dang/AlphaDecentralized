@@ -5,9 +5,11 @@ import './App.css'
 
 export default function App(){
   return (
-    <>
-      <CoinLayerForm />
-      <ShowcaseSlider />
-    </>
+    <div className='AppWrapper'>
+      <>
+        <CoinLayerForm />
+        <ShowcaseSlider />
+      </>
+    </div>
   );
 }

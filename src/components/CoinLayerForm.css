@@ -2,16 +2,19 @@ a {
     color: #61dafb;
 }
 
-label, input {
-    display: block;
-}
-
-label {
+label{
     color: white;
     margin-bottom: 20px;
 }
 
-.QueryFormWrapper{
+input{
+    background-color: lavender;
+    border: honeydew;
+    border-width: 6px;
+    box-shadow: 4px 16px rgb(68, 68, 68);
+}
+
+.QueryPadder{
     background-color: rgb(160, 104, 0);
     padding-bottom: 16vh;
     padding-left: 16px;
@@ -21,11 +24,15 @@ label {
 
 .QueryForm{
     background-color: rgb(36, 56, 56);
-    box-shadow: 5px 16px rgb(27, 41, 41);
+    border: rgb(28, 48, 48);
+    border-width: 8px;
+    box-shadow: 8px 32px rgb(27, 41, 41);
 }
 
 .QueryButton{
     background-color: lavender;
     border: honeydew;
+    border-width: 6px;
+    box-shadow: 4px 16px rgb(68, 68, 68);
     color: slategray;
 }

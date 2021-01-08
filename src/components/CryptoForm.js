@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
 import axios from 'axios'
-import './CoinLayerForm.css'
+import './CryptoForm.css'
 
-export default class CoinLayerForm extends Component{
+export default class CryptoForm extends Component{
     constructor(){
         super()
         this.state = {
@@ -30,7 +30,7 @@ export default class CoinLayerForm extends Component{
         return(
             <div className='QueryPadder'>
                 <form className='QueryForm' onSubmit={this.onSubmit}>
-                    <h1>CryptoQ</h1>
+                    <h1>Crypto</h1>
                     <label><a href='https://coinlayer.com/signup/free' rel='noreferrer' target='_blank'>Need a free API Key?</a></label>
                     <label className='CoinLayerKeyLabel'>
                         API Key:

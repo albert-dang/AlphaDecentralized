@@ -1,4 +1,5 @@
 .ShowcaseSlider{
     background-color: #7182a5;
     height: 10vh;
+    justify-content: space-between;
 }

@@ -1,7 +1,11 @@
-.ShowcaseSlider{
+.SliderWrapper{
     background-color: #5d687e;
     border-bottom: 4px #404a5f;
     border-top: 4px #404a5f;
     box-shadow: 0px 32px rgb(95, 62, 0);
+    height: 10vh;
+}
+
+.ShowcaseSlider{
     height: 10vh;
 }

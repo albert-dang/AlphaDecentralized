@@ -7,8 +7,7 @@ export default class CoinLayerForm extends Component{
         super()
         this.state = {
             apiKey: '',
-            startDate: '',
-            endDate: ''
+            symbol: ''
         }
     }
 
@@ -18,16 +17,16 @@ export default class CoinLayerForm extends Component{
 
     onSubmit = (e) => {
         e.preventDefault()
-        const{apiKey, startDate, endDate} = this.state
+        const{apiKey, symbol} = this.state
 
-        axios.post('/', {apiKey, startDate, endDate})
+        axios.post('/', {apiKey, symbol})
             .then((result) => {
                 //Access results
             })
     }
 
     render(){
-        const{apiKey, startDate, endDate} = this.state
+        const{apiKey, symbol} = this.state
         return(
             <div className='QueryPadder'>
                 <form className='QueryForm' onSubmit={this.onSubmit}>
@@ -37,13 +36,9 @@ export default class CoinLayerForm extends Component{
                         API Key:
                         <input type='text' name='apiKey' value={apiKey} onChange={this.onChange}/>
                     </label>
-                    <label className='StartDateLabel'>
-                        Start Date (DD/MM/YYYY):
-                        <input type='text' name='startDate' value={startDate} onChange={this.onChange}/>
-                    </label>
-                    <label className='EndDateLabel'>
-                        End Date:
-                        <input type='text' name='endDate' value={endDate} onChange={this.onChange}/>
+                    <label className='SymbolLabel'>
+                        Symbol(s):
+                        <input type='text' name='symbol' value={symbol} onChange={this.onChange}/>
                     </label>
                     <div className='QueryButtonWrapped'>
                         <button className='QueryButton' type='submit'>

@@ -6,8 +6,8 @@ export default class CoinLayerForm extends Component{
     constructor(){
         super()
         this.state = {
-            apiKey: '',
-            symbol: ''
+            apiKey: 'f50fd7dc8c1bb7831d2961752e21a694',
+            symbol: 'BTC, ETH, XLM'
         }
     }
 

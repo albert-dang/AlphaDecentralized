@@ -16,8 +16,9 @@ input{
     border-style: solid;
     box-shadow: 4px 8px rgb(32, 48, 48);
     display: block;
+    height: 28px;
     margin-left: 6px;
-    size: 262;
+    width: 262px;
 }
 
 .QueryPadder{

@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/AlphaDecentralized/static/css/main.743da5f9.chunk.css",
-    "main.js": "/AlphaDecentralized/static/js/main.f4e558eb.chunk.js",
-    "main.js.map": "/AlphaDecentralized/static/js/main.f4e558eb.chunk.js.map",
+    "main.js": "/AlphaDecentralized/static/js/main.b33f9119.chunk.js",
+    "main.js.map": "/AlphaDecentralized/static/js/main.b33f9119.chunk.js.map",
     "runtime-main.js": "/AlphaDecentralized/static/js/runtime-main.6a414303.js",
     "runtime-main.js.map": "/AlphaDecentralized/static/js/runtime-main.6a414303.js.map",
     "static/css/2.0ed7d64a.chunk.css": "/AlphaDecentralized/static/css/2.0ed7d64a.chunk.css",
-    "static/js/2.21ba937e.chunk.js": "/AlphaDecentralized/static/js/2.21ba937e.chunk.js",
-    "static/js/2.21ba937e.chunk.js.map": "/AlphaDecentralized/static/js/2.21ba937e.chunk.js.map",
+    "static/js/2.d0cd4310.chunk.js": "/AlphaDecentralized/static/js/2.d0cd4310.chunk.js",
+    "static/js/2.d0cd4310.chunk.js.map": "/AlphaDecentralized/static/js/2.d0cd4310.chunk.js.map",
     "static/js/3.37778df9.chunk.js": "/AlphaDecentralized/static/js/3.37778df9.chunk.js",
     "static/js/3.37778df9.chunk.js.map": "/AlphaDecentralized/static/js/3.37778df9.chunk.js.map",
     "index.html": "/AlphaDecentralized/index.html",
     "static/css/2.0ed7d64a.chunk.css.map": "/AlphaDecentralized/static/css/2.0ed7d64a.chunk.css.map",
     "static/css/main.743da5f9.chunk.css.map": "/AlphaDecentralized/static/css/main.743da5f9.chunk.css.map",
-    "static/js/2.21ba937e.chunk.js.LICENSE.txt": "/AlphaDecentralized/static/js/2.21ba937e.chunk.js.LICENSE.txt",
+    "static/js/2.d0cd4310.chunk.js.LICENSE.txt": "/AlphaDecentralized/static/js/2.d0cd4310.chunk.js.LICENSE.txt",
     "static/media/Pandas_logo.47aa8f84.svg": "/AlphaDecentralized/static/media/Pandas_logo.47aa8f84.svg",
     "static/media/coinlayer_logo.be650831.svg": "/AlphaDecentralized/static/media/coinlayer_logo.be650831.svg",
     "static/media/logo.6ce24c58.svg": "/AlphaDecentralized/static/media/logo.6ce24c58.svg",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.6a414303.js",
     "static/css/2.0ed7d64a.chunk.css",
-    "static/js/2.21ba937e.chunk.js",
+    "static/js/2.d0cd4310.chunk.js",
     "static/css/main.743da5f9.chunk.css",
-    "static/js/main.f4e558eb.chunk.js"
+    "static/js/main.b33f9119.chunk.js"
   ]
 }

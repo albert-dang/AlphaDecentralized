@@ -21,11 +21,10 @@ input{
 
 .QueryPadder{
     background-color: rgb(160, 104, 0);
-    padding-bottom: 16vh;
+    padding-bottom: 32vh;
     padding-left: 26px;
     padding-right: 26px;
-    padding-top: 6vh;
-    top: 32vh;
+    padding-top: 26px;
 }
 
 .QueryForm{

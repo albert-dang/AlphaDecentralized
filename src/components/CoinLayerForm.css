@@ -6,14 +6,16 @@ label{
     color: white;
     display: block;
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 input{
     background-color: lavender;
-    border: 3px honeydew;
+    border: 4px teal;
     border-width: 6px;
-    box-shadow: 4px 8px rgb(68, 68, 68);
+    box-shadow: 4px 8px rgb(32, 48, 48);
     display: block;
+    margin-left: 6px;
 }
 
 .QueryPadder{
@@ -33,9 +35,8 @@ input{
 
 .QueryButton{
     background-color: lavender;
-    border: 4px honeydew;
+    border: 4px teal;
     border-width: 6px;
     box-shadow: 4px 8px rgb(68, 68, 68);
     color: slategray;
-    padding-bottom: 32;
 }

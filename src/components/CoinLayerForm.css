@@ -3,7 +3,8 @@ a {
 }
 
 h1{
-    font-size: 16;
+    color: white;
+    font-size: 13;
 }
 
 label{
@@ -18,7 +19,7 @@ input{
     border: 4px teal;
     border-width: 6px;
     border-style: solid;
-    box-shadow: 4px 13px rgb(32, 48, 48);
+    box-shadow: 13px 13px rgb(32, 48, 48);
     display: block;
     height: 28px;
     margin-left: 6px;
@@ -46,8 +47,10 @@ input{
     border: 4px teal;
     border-width: 6px;
     border-style: solid;
-    box-shadow: 4px 8px rgb(32, 48, 48);
+    box-shadow: 13px 13px rgb(32, 48, 48);
     color: #3f90a7;
+    height: 24;
+    width: 58;
 }
 
 .QueryButtonWrapped{

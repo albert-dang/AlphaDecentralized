@@ -4,6 +4,7 @@ a {
 
 label{
     color: white;
+    display: inline-block;
     margin-bottom: 20px;
 }
 
@@ -12,6 +13,7 @@ input{
     border: honeydew;
     border-width: 6px;
     box-shadow: 4px 16px rgb(68, 68, 68);
+    display: inline-block
 }
 
 .QueryPadder{

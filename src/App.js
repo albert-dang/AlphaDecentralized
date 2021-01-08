@@ -1,6 +1,6 @@
 import React from 'react'
 import CoinLayerForm from './components/CoinLayerForm'
-import Report from './components/Report'
+import Report from './components/reportSlider/Report'
 import ShowcaseSlider from './components/poweredByShowcase/ShowcaseSlider'
 import './App.css'
 

@@ -8,7 +8,7 @@ export default class ShowcaseSlider extends Component{
     render(){
         const settings = {
             arrows: true,
-            dots: false,
+            dots: true,
             infinite: true,
             slidesToShow: 1,
             slidesToScroll: 1,

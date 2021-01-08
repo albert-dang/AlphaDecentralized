@@ -13,6 +13,7 @@ label {
 
 .QueryForm{
     background-color: rgb(36, 56, 56);
+    box-shadow: 5px 16px rgb(27, 41, 41);
     padding-bottom: 16vh;
     padding-left: 16px;
     padding-top: 6vh;

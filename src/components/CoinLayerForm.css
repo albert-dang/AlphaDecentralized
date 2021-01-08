@@ -3,7 +3,6 @@ a {
 }
 
 label{
-    background-color: teal;
     color: white;
     display: block;
     margin-bottom: 20px;
@@ -19,7 +18,7 @@ input{
     display: block;
     height: 28px;
     margin-left: 6px;
-    width: 262px;
+    width: 304px;
 }
 
 .QueryPadder{

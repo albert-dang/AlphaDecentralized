@@ -1,6 +1,6 @@
 import './Report.css'
 
-export default function(){
+export default function ReportWrapper(){
     <div className='ReportWrapper'>
     </div>
 }

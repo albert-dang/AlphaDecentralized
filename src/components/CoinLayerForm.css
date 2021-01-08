@@ -10,9 +10,9 @@ label{
 
 input{
     background-color: lavender;
-    border: honeydew;
+    border: 3px honeydew;
     border-width: 6px;
-    box-shadow: 4px 16px rgb(68, 68, 68);
+    box-shadow: 4px 8px rgb(68, 68, 68);
     display: block;
 }
 
@@ -33,8 +33,9 @@ input{
 
 .QueryButton{
     background-color: lavender;
-    border: honeydew;
+    border: 4px honeydew;
     border-width: 6px;
-    box-shadow: 4px 16px rgb(68, 68, 68);
+    box-shadow: 4px 8px rgb(68, 68, 68);
     color: slategray;
+    padding-bottom: 32;
 }

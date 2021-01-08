@@ -17,6 +17,7 @@ input{
     box-shadow: 4px 8px rgb(32, 48, 48);
     display: block;
     margin-left: 6px;
+    width: 262;
 }
 
 .QueryPadder{
@@ -44,4 +45,5 @@ input{
     color: slategray;
     margin-left: 8px;
     margin-bottom: 8px;
+    right: 50vh;
 }

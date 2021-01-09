@@ -10,13 +10,10 @@ h1{
 }
 
 label{
-    align-items: center;
-    align-content: center;
     color: white;
     display: block;
     margin-bottom: 20px;
     margin-left: 20px;
-    text-align: center;
 }
 
 input{
@@ -38,21 +35,15 @@ input{
     padding-left: 26px;
     padding-right: 26px;
     padding-top: 26px;
-    z-index: 6;
 }
 
 .QueryForm{
-    align-items: center;
-    align-content: center;
     background-color: #331874;
     border: #270e4e;
     border-width: 8px;
     border-style: solid;
     box-shadow: 13px 32px #200f24;
-    margin: auto;
-    max-width: 62vw;
-    text-align: center;
-    z-index: 6;
+    width: fit-content;
 }
 
 .QueryButton{
@@ -60,8 +51,8 @@ input{
     border: 0;
     box-shadow: 8px 8px #1e0b52;
     color: white;
-    height: 24;
-    width: 58;
+    height: 24px;
+    width: 58px;
 }
 
 .QueryButtonWrapped{

@@ -1,5 +1,5 @@
 import React from 'react'
-import CryptoForm from './components/CryptoForm'
+import CryptoForm from './components/querySlider/CryptoForm'
 import Report from './components/reportSlider/Report'
 import ShowcaseSlider from './components/poweredByShowcase/ShowcaseSlider'
 import './App.css'

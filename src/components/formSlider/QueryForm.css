@@ -10,6 +10,8 @@ h1{
 }
 
 label{
+    align-items: center;
+    align-content: center;
     color: white;
     display: block;
     margin-bottom: 20px;
@@ -48,6 +50,7 @@ input{
     box-shadow: 13px 32px #200f24;
     margin: auto;
     max-width: 86vw;
+    text-align: center;
     z-index: 6;
 }
 

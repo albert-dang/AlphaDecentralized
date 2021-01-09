@@ -12,8 +12,10 @@
 
 .slick-next:before{
     color: lightsteelblue;
+    left: 42vh;
 }
 
 .slick-prev:before{
     color: lightsteelblue;
+    right: 42vh;
 }

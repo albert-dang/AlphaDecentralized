@@ -31,14 +31,11 @@ input{
 }
 
 .QueryPadder{
-    align-items: center;
-    align-content: center;
     background-color: #29132e;
     padding-bottom: 49px;
     padding-left: 26px;
     padding-right: 26px;
     padding-top: 26px;
-    text-align: center;
     width: fit-content;
 }
 

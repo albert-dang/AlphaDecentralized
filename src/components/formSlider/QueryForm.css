@@ -39,11 +39,14 @@ input{
 }
 
 .QueryForm{
+    align-items: center;
+    align-content: center;
     background-color: #331874;
     border: #270e4e;
     border-width: 8px;
     border-style: solid;
     box-shadow: 13px 32px #200f24;
+    margin: auto;
     max-width: 86vw;
     z-index: 6;
 }

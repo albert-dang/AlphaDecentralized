@@ -17,10 +17,10 @@ label{
 
 input{
     background-color: lavender;
-    border: 4px teal;
+    border: 4px #423baa;
     border-width: 6px;
     border-style: solid;
-    box-shadow: 13px 13px #1b0b52;
+    box-shadow: 13px 13px #1e0b52;
     display: block;
     height: 28px;
     max-width: 62vw; 
@@ -37,20 +37,19 @@ input{
 }
 
 .QueryForm{
-    background-color: #240c76;
-    border: #1f0f55;
+    background-color: #321386;
+    border: #2a0f55;
     border-width: 8px;
     border-style: solid;
     box-shadow: 8px 32px #200f24;
 }
 
 .QueryButton{
-    background-color: lavender;
-    border: 4px teal;
+    background-color: #423baa;
     border-width: 6px;
     border-style: solid;
-    box-shadow: 13px 13px #1b0b52;
-    color: #3f90a7;
+    box-shadow: 13px 13px #1e0b52;
+    color: white;
     height: 24;
     width: 58;
 }

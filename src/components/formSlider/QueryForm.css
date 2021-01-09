@@ -31,8 +31,8 @@ input{
 
 .QueryPadder{
     background-color: #29132e;
-    margin-left: 68;
-    margin-right: 68;
+    margin-left: 68px;
+    margin-right: 68px;
     padding-bottom: 49px;
     padding-left: 26px;
     padding-right: 26px;
@@ -45,6 +45,7 @@ input{
     border-width: 8px;
     border-style: solid;
     box-shadow: 13px 32px #200f24;
+    z-index: 6;
 }
 
 .QueryButton{

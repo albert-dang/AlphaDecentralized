@@ -18,12 +18,8 @@ export default class FormSlider extends Component{
         return (
             <div className='SliderWrapper'>
                 <Slider {...settings} className='FormSlider'>
-                    <div>
-                        <StockForm />
-                    </div>
-                    <div>
-                        <CryptoForm />
-                    </div>
+                    <StockForm />
+                    <CryptoForm />
                 </Slider>
             </div>
         )

@@ -31,12 +31,11 @@ input{
 
 .QueryPadder{
     background-color: #29132e;
-    margin-left: 68px;
-    margin-right: 68px;
     padding-bottom: 49px;
     padding-left: 26px;
     padding-right: 26px;
     padding-top: 26px;
+    z-index: 6;
 }
 
 .QueryForm{
@@ -45,6 +44,7 @@ input{
     border-width: 8px;
     border-style: solid;
     box-shadow: 13px 32px #200f24;
+    max-width: 86vw;
     z-index: 6;
 }
 

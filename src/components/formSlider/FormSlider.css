@@ -3,17 +3,3 @@
     align-content: center;
     background-color: #29132e;
 }
-
-.SliderWrapper{
-    align-items: center;
-    align-content: center;
-    background-color: #29132e;
-}
-
-.slick-next:before{
-    color: lightsteelblue;
-}
-
-.slick-prev:before{
-    color: lightsteelblue;
-}

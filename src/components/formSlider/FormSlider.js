@@ -9,19 +9,19 @@ import './FormSlider.css'
 export default class FormSlider extends Component{
     render(){
         const settings = {
+            adaptiveHeight: true,
             arrows: true,
             dots: false,
             infinite: true,
             slidesToShow: 1,
             slidesToScroll: 1,
+            speed: 785
         }
         return (
-            <div className='SliderWrapper'>
-                <Slider {...settings} className='FormSlider'>
-                    <StockForm />
-                    <CryptoForm />
-                </Slider>
-            </div>
+            <Slider {...settings} className='FormSlider'>
+                <StockForm />
+                <CryptoForm />
+            </Slider>
         )
     }
 }

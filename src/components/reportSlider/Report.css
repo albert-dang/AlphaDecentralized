@@ -1,5 +1,9 @@
 .slick-dots{
-    color: #89AEE1
+    background-color: white;
+}
+
+.slick-active{
+    background-color: steelblue;
 }
 
 .ReportWrapper{

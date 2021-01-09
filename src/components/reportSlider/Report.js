@@ -7,7 +7,6 @@ import './Report.css'
 export default class ShowcaseSlider extends Component{
     render(){
         const settings = {
-            arrows: true,
             dots: true,
             infinite: true,
             slidesToShow: 1,

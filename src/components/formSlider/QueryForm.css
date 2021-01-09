@@ -16,6 +16,7 @@ label{
     display: block;
     margin-bottom: 20px;
     margin-left: 20px;
+    text-align: center;
 }
 
 input{
@@ -49,7 +50,7 @@ input{
     border-style: solid;
     box-shadow: 13px 32px #200f24;
     margin: auto;
-    max-width: 86vw;
+    max-width: 62vw;
     text-align: center;
     z-index: 6;
 }

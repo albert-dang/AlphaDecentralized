@@ -6,4 +6,7 @@
     align-items: center;
     align-content: center;
     background-color: #29132e;
+    display: flex;
+    flex-flow: column;
+    max-height: 47vh;
 }

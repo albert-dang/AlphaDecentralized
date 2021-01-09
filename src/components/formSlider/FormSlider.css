@@ -2,12 +2,12 @@
     align-items: center;
     align-content: center;
     background-color: #29132e;
-    height: fit-content;
+    display: block;
 }
 
 .SliderWrapper{
     align-items: center;
     align-content: center;
     background-color: #29132e;
-    height: fit-content;
+    display: block;
 }

@@ -5,6 +5,7 @@ a {
 h1{
     color: white;
     font-size: 11;
+    margin-left: 8px;
     text-shadow: 4px 4px rgb(32, 48, 48);
 }
 

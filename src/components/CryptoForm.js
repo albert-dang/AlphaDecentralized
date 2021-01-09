@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import axios from 'axios'
-import './CryptoForm.css'
+import './QueryForm.css'
 
 export default class CryptoForm extends Component{
     constructor(){

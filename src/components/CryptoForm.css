@@ -46,7 +46,8 @@ input{
 
 .QueryButton{
     background-color: #423baa;
-    box-shadow: 13px 13px #1e0b52;
+    border: 0;
+    box-shadow: 8px 8px #1e0b52;
     color: white;
     height: 24;
     width: 58;

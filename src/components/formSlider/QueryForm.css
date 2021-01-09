@@ -44,14 +44,14 @@ input{
     border: #270e4e;
     border-width: 8px;
     border-style: solid;
-    box-shadow: 13px 32px #200f24;
+    box-shadow: 15px 32px #200f24;
     width: fit-content;
 }
 
 .QueryButton{
     background-color: #423baa;
     border: 0;
-    box-shadow: 8px 8px #1e0b52;
+    box-shadow: 13px 13px #1e0b52;
     color: white;
     height: 24px;
     width: 58px;

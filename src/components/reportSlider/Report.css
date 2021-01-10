@@ -10,22 +10,6 @@
     color: #4e43ac;
 }
 
-.slick-next{
-    left: 31vw;
-}
-
-.slick-prev{
-    right: 81vw;
-}
-
-.slick-next::before{
-    color: #4e43ac;
-}
-
-.slick-prev::before{
-    color: #4e43ac;
-}
-
 .ReportWrapper{
     align-items: center;
     align-content: center;

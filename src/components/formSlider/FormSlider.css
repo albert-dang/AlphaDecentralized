@@ -4,6 +4,18 @@
     background-color: #1f1131;
 }
 
-.slick-prev, .slick-next {
-    z-index: 1;
+.slick-next{
+    left: 31vw;
+}
+
+.slick-prev{
+    right: 81vw;
+}
+
+.slick-next::before{
+    color: #4e43ac;
+}
+
+.slick-prev::before{
+    color: #4e43ac;
 }

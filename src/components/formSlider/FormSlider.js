@@ -13,6 +13,8 @@ export default class FormSlider extends Component{
             arrows: true,
             dots: false,
             infinite: true,
+            nextArrow: '.nextForm',
+            prevArrow: '.prevForm',
             slidesToShow: 1,
             slidesToScroll: 1,
             speed: 785

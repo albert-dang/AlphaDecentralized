@@ -4,12 +4,12 @@
     background-color: #1f1131;
 }
 
-.slick-next{
+.nextForm{
     left: 82vw;
 }
 
-.slick-prev{
-    right: 19vw;
+.prevForm{
+    left: 19vw;
 }
 
 .slick-next::before{

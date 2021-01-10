@@ -10,7 +10,7 @@
 }
 
 .FormSlider .slick-next::before{
-    background-color: white;
+    background-color: rgb(137, 137, 187);
     border: 0;
     border-radius: 13px;
     box-shadow: 8px 8px  #120e24;
@@ -22,7 +22,7 @@
 }
 
 .FormSlider .slick-prev::before{
-    background-color: white;
+    background-color: rgb(137, 137, 187);
     border: 0;
     border-radius: 13px;
     box-shadow: 8px 8px #120e24;
@@ -31,5 +31,6 @@
     width: 58px;
     left: 13vw;
     position: relative;
+    z-index: 999;
 }
 

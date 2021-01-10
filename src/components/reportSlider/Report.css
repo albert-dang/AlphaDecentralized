@@ -10,12 +10,12 @@
     color: #4e43ac;
 }
 
-.nextReport{
+.slick-next{
     left: 71vw;
 }
 
-.prevReport{
-    right: 31vw;
+.slick-prev{
+    left: 31vw;
 }
 
 .ReportWrapper{

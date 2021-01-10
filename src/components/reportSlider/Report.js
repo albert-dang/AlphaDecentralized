@@ -9,8 +9,6 @@ export default class ShowcaseSlider extends Component{
         const settings = {
             dots: true,
             infinite: true,
-            nextArrow: '.nextReport',
-            prevArrow: '.prevReport',
             slidesToShow: 1,
             slidesToScroll: 1,
         }

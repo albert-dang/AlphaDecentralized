@@ -10,6 +10,10 @@ i{
     cursor: grab;
 }
 
+.FormSlider:active{
+    cursor: grabbing;
+}
+
 .nextForm{
     background-color: #423baa;
     border: 0;

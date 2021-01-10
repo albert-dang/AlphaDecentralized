@@ -6,3 +6,7 @@
 .ShowcaseSlider{
     height: 10vh;
 }
+
+.ShowcaseSlider:active{
+    cursor: grabbing;
+}

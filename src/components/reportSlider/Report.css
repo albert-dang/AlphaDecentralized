@@ -1,8 +1,8 @@
-.slick-arrow slick-next{
+.slick-arrow button::before{
     color: #4e43ac;
 }
 
-.slick-arrow slick-prev{
+.slick-arrow{
     color: #4e43ac;
 }
 

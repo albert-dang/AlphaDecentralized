@@ -13,8 +13,8 @@ export default class FormSlider extends Component{
             arrows: true,
             dots: false,
             infinite: true,
-            nextArrow: <button className='nextForm'>></button>,
-            prevArrow: <button className='prevForm'><</button>,
+            nextArrow: <button className='nextForm'></button>,
+            prevArrow: <button className='prevForm'></button>,
             slidesToShow: 1,
             slidesToScroll: 1,
             speed: 785

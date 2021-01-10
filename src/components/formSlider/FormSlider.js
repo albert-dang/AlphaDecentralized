@@ -14,8 +14,6 @@ export default class FormSlider extends Component{
             arrows: true,
             dots: false,
             infinite: true,
-            nextArrow: <button><i class='fa fa-arrow-right'></i></button>,
-            prevArrow: <button><i class='fa fa-arrow-left'></i></button>,
             slidesToShow: 1,
             slidesToScroll: 1,
             speed: 785

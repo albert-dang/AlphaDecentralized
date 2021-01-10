@@ -13,7 +13,7 @@ export default class FormSlider extends Component{
             adaptiveHeight: true,
             arrows: false,
             centerMode: true,
-            centerPadding: 0,
+            centerPadding: '0%',
             dots: false,
             infinite: true,
             slidesToShow: 1,

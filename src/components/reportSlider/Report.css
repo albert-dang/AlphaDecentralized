@@ -10,13 +10,13 @@
     color: #4e43ac;
 }
 
-.nextReport::before{
+.nextReport{
     color: #4e43ac;
     left: -32vw;
     position: relative;
 }
 
-.prevReport::before{
+.prevReport{
     color: #4e43ac;
     left: 32vw;
     position: relative;

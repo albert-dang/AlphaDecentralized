@@ -1,5 +1,9 @@
+.slick-dots li button::before{
+    color: #331874;
+}
+
 .slick-dots li.slick-active button::before{
-    color: #270e4e;
+    color: #4b349e;
 }
 
 .ReportWrapper{

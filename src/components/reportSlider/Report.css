@@ -22,11 +22,14 @@
     position: relative;
 }
 
+.ReportSlider{
+    cursor: grab;
+}
+
 .ReportWrapper{
     align-items: center;
     align-content: center;
     color: white;
-    cursor: grab;
     background-color: #1f1131;
     flex: 1;
     text-align: center;

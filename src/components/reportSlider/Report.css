@@ -13,16 +13,17 @@
 .ReportWrapper{
     align-items: center;
     align-content: center;
-    display: flex;
     color: white;
     background-color: #1f1131;
     flex: 1;
-    flex-flow: column;
-    overflow: hidden;
-    overflow-x: hidden;
     text-align: center;
 }
 
-.Report{
-    flex: 1
+.signals, .indicators, .metrics{
+    display: flex;
+    flex-flow: column;
+}
+
+.signalsBody, .indicatorsBody, .metricsBody{
+    flex: 1;
 }

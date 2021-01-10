@@ -15,14 +15,17 @@ export default class ShowcaseSlider extends Component{
         return (
             <div className='ReportWrapper'>
                 <Slider {...settings} className='ReportSlider'>
-                    <div className='Report'>
+                    <div className='signals'>
                         <h2>Signals</h2>
+                        <div className='signalsBody'></div>
                     </div>
-                    <div className='Report'>
+                    <div className='indicators'>
                         <h2>Indicators</h2>
+                        <div className='indicatorsBody'></div>
                     </div>
-                    <div className='Report'>
+                    <div className='metrics'>
                         <h2>Metrics</h2>
+                        <div className='metricsBody'></div>
                     </div>
                 </Slider>
             </div>

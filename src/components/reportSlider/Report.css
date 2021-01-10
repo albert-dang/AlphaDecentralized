@@ -10,6 +10,14 @@
     color: #4e43ac;
 }
 
+.slick-next{
+    left: 71vw;
+}
+
+.slick-prev{
+    right: 31vw;
+}
+
 .ReportWrapper{
     align-items: center;
     align-content: center;

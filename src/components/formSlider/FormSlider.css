@@ -10,19 +10,22 @@
 }
 
 .FormSlider .slick-next::before{
-    background-color: rgb(187, 187, 221);
-    background-size: 3px 3px;
     border: 0;
     border-radius: 13px;
-    box-shadow: 8px 8px  rgba(0, 0, 0, 0.618);
     color: #423baa;
     height: 24px;
     width: 58px;
-    left: -13vw;
+    left: calc(50% - 32px);
     position: relative;
 }
 
 .FormSlider .slick-prev::before{
-    display: none;
+    border: 0;
+    border-radius: 13px;
+    color: #423baa;
+    height: 24px;
+    width: 58px;
+    left: calc(50% + 32px);
+    position: relative;
 }
 

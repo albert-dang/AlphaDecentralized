@@ -20,11 +20,13 @@
 }
 
 .slick-next{
-    color: #4b349e;
     left: 31vw;
 }
 
 .slick-prev{
-    color: #4b349e;
     right: 81vw;
+}
+
+.slick-next::before, .slick-prev::before{
+    color: #4e43ac;
 }

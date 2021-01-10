@@ -1,6 +1,7 @@
 .Enigma-logo {
     pointer-events: none;
-    max-height: 12vh;
+    max-height: 16vh;
+    top: 32;
   }
   
 .Enigma-showcase{

@@ -12,10 +12,14 @@
 
 .nextReport{
     color: #4e43ac;
+    left: -32vw;
+    position: relative;
 }
 
 .prevReport{
     color: #4e43ac;
+    left: 32vw;
+    position: relative;
 }
 
 .ReportWrapper{

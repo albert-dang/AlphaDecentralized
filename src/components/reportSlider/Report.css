@@ -1,3 +1,7 @@
+.slick-dots{
+    pointer-events: none;
+}
+
 .slick-dots li button::before{
     color: #4b349e;
 }

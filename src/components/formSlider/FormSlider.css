@@ -8,24 +8,3 @@
 .FormSlider:active{
     cursor: grabbing;
 }
-
-.FormSlider .slick-next::before{
-    border: 0;
-    border-radius: 13px;
-    box-shadow: 8px 13px #120e24;
-    color: #423baa;
-    left: calc(196px - 50vw);
-    position: relative;
-    top: 84px;
-}
-
-.FormSlider .slick-prev::before{
-    border: 0;
-    border-radius: 13px;
-    box-shadow: 8px 13px #120e24;
-    color: #423baa;
-    left: calc(50vw - 196px);
-    position: relative;
-    top: 84px;
-}
-

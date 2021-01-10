@@ -11,7 +11,9 @@ export default class FormSlider extends Component{
     render(){
         const settings = {
             adaptiveHeight: true,
-            arrows: true,
+            arrows: false,
+            centerMode: true,
+            centerPadding: '20%',
             dots: false,
             infinite: true,
             slidesToShow: 1,

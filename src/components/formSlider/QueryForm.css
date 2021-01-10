@@ -31,6 +31,9 @@ input{
 }
 
 .QueryPadder{
+    align-items: center;
+    align-content: center;
+    align-self: center;
     background-color: #261447;
     padding-bottom: 49px;
     padding-left: 26px;

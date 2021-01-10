@@ -6,8 +6,12 @@
 
 .nextForm{
     color: #4e43ac;
+    position: absolute;
+    left: 81vw;
 }
 
 .prevForm{
     color: #4e43ac;
+    position: absolute;
+    left: 19vw;
 }

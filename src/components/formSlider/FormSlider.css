@@ -14,9 +14,9 @@
     border-radius: 13px;
     box-shadow: 8px 13px #120e24;
     color: #423baa;
-    left: calc(150px - 50vw);
+    left: calc(196px - 50vw);
     position: relative;
-    top: 137px;
+    top: 84px;
 }
 
 .FormSlider .slick-prev::before{
@@ -24,8 +24,8 @@
     border-radius: 13px;
     box-shadow: 8px 13px #120e24;
     color: #423baa;
-    left: calc(50vw - 150px);
+    left: calc(50vw - 196px);
     position: relative;
-    top: 137px;
+    top: 84px;
 }
 

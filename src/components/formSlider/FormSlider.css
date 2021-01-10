@@ -3,3 +3,7 @@
     align-content: center;
     background-color: #1f1131;
 }
+
+.slick-prev, .slick-next {
+    z-index: 1;
+}

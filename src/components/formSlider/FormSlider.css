@@ -12,16 +12,20 @@
 .FormSlider .slick-next::before{
     border: 0;
     border-radius: 13px;
+    box-shadow: 8px 13px #120e24;
     color: #423baa;
-    left: 50vw;
-    position: relative;
+    left: calc(50% + 144px);
+    position: absolute;
+    top: 18vh;
 }
 
 .FormSlider .slick-prev::before{
     border: 0;
     border-radius: 13px;
+    box-shadow: 8px 13px #120e24;
     color: #423baa;
-    left: 32vw;
-    position: relative;
+    left: calc(50% - 144px);
+    position: absolute;
+    top: 18vh;
 }
 

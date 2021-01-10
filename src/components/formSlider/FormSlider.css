@@ -7,3 +7,10 @@
 .slick-prev, .slick-next {
     z-index: 1;
 }
+
+.wcp-carousel-main-wrap {
+    width: 100%;
+}
+.slick-slider {
+	overflow: visible;
+}

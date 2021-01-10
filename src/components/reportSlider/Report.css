@@ -18,6 +18,8 @@
     background-color: #1f1131;
     flex: 1;
     flex-flow: column;
+    overflow: hidden;
+    overflow-x: hidden;
     text-align: center;
 }
 

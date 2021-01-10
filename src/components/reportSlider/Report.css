@@ -3,8 +3,6 @@
 }
 
 .slick-dots li.slick-active button::before{
-    background-color: #3b349e;
-    border-radius: 13px;
     color: #4b349e;
 }
 

@@ -3,6 +3,7 @@
     align-content: center;
     background-color: #1f1131;
     cursor: grab;
+    position: relative;
     z-index: 999;
 }
 
@@ -26,7 +27,8 @@
     color: #423baa;
     height: 24px;
     width: 58px;
-    left: calc(50vw);
+    left: calc(50vw - 8px);
     position: relative;
+    z-index: 999;
 }
 

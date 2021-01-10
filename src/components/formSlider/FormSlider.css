@@ -15,7 +15,7 @@
     box-shadow: 8px 13px #120e24;
     color: #423baa;
     left: calc(50% + 144px);
-    position: absolute;
+    position: relative;
     top: 18vh;
 }
 
@@ -24,8 +24,8 @@
     border-radius: 13px;
     box-shadow: 8px 13px #120e24;
     color: #423baa;
-    left: calc(50% - 144px);
-    position: absolute;
+    left: 32vw;
+    position: relative;
     top: 18vh;
 }
 

@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/AlphaDecentralized/static/css/main.e857c215.chunk.css",
-    "main.js": "/AlphaDecentralized/static/js/main.367a16d6.chunk.js",
-    "main.js.map": "/AlphaDecentralized/static/js/main.367a16d6.chunk.js.map",
-    "runtime-main.js": "/AlphaDecentralized/static/js/runtime-main.47b70f03.js",
-    "runtime-main.js.map": "/AlphaDecentralized/static/js/runtime-main.47b70f03.js.map",
+    "main.css": "/AlphaDecentralized/static/css/main.0e434c1b.chunk.css",
+    "main.js": "/AlphaDecentralized/static/js/main.94bf96ee.chunk.js",
+    "main.js.map": "/AlphaDecentralized/static/js/main.94bf96ee.chunk.js.map",
+    "runtime-main.js": "/AlphaDecentralized/static/js/runtime-main.d35ef38c.js",
+    "runtime-main.js.map": "/AlphaDecentralized/static/js/runtime-main.d35ef38c.js.map",
     "static/css/2.0ed7d64a.chunk.css": "/AlphaDecentralized/static/css/2.0ed7d64a.chunk.css",
     "static/js/2.a7f3ea5d.chunk.js": "/AlphaDecentralized/static/js/2.a7f3ea5d.chunk.js",
     "static/js/2.a7f3ea5d.chunk.js.map": "/AlphaDecentralized/static/js/2.a7f3ea5d.chunk.js.map",
-    "static/js/3.8c59a989.chunk.js": "/AlphaDecentralized/static/js/3.8c59a989.chunk.js",
-    "static/js/3.8c59a989.chunk.js.map": "/AlphaDecentralized/static/js/3.8c59a989.chunk.js.map",
+    "static/js/3.3a6a5337.chunk.js": "/AlphaDecentralized/static/js/3.3a6a5337.chunk.js",
+    "static/js/3.3a6a5337.chunk.js.map": "/AlphaDecentralized/static/js/3.3a6a5337.chunk.js.map",
     "index.html": "/AlphaDecentralized/index.html",
     "static/css/2.0ed7d64a.chunk.css.map": "/AlphaDecentralized/static/css/2.0ed7d64a.chunk.css.map",
-    "static/css/main.e857c215.chunk.css.map": "/AlphaDecentralized/static/css/main.e857c215.chunk.css.map",
+    "static/css/main.0e434c1b.chunk.css.map": "/AlphaDecentralized/static/css/main.0e434c1b.chunk.css.map",
     "static/js/2.a7f3ea5d.chunk.js.LICENSE.txt": "/AlphaDecentralized/static/js/2.a7f3ea5d.chunk.js.LICENSE.txt",
     "static/media/Pandas_logo.47aa8f84.svg": "/AlphaDecentralized/static/media/Pandas_logo.47aa8f84.svg",
     "static/media/coinlayer_logo.be650831.svg": "/AlphaDecentralized/static/media/coinlayer_logo.be650831.svg",
+    "static/media/enigmaco-logo.b17aa4d4.svg": "/AlphaDecentralized/static/media/enigmaco-logo.b17aa4d4.svg",
     "static/media/logo.6ce24c58.svg": "/AlphaDecentralized/static/media/logo.6ce24c58.svg",
     "static/media/slick-theme.css": "/AlphaDecentralized/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.47b70f03.js",
+    "static/js/runtime-main.d35ef38c.js",
     "static/css/2.0ed7d64a.chunk.css",
     "static/js/2.a7f3ea5d.chunk.js",
-    "static/css/main.e857c215.chunk.css",
-    "static/js/main.367a16d6.chunk.js"
+    "static/css/main.0e434c1b.chunk.css",
+    "static/js/main.94bf96ee.chunk.js"
   ]
 }

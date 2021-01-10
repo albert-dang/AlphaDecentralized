@@ -1,8 +1,9 @@
 .slick-dots li button::before{
-    color: #331874;
+    color: #4b349e;
 }
 
 .slick-dots li.slick-active button::before{
+    box-shadow: 0px 0px 3px 3px #34509e;
     color: #4b349e;
 }
 

@@ -19,12 +19,12 @@
     text-align: center;
 }
 
-#next-arrow{
+.next-arrow{
     color: #4b349e;
     left: 31vw;
 }
 
-#prev-arrow{
+.prev-arrow{
     color: #4b349e;
     right: 81vw;
 }

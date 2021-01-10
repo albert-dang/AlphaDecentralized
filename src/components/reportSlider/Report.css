@@ -1,10 +1,6 @@
 .slick-dots li.slick-active button::before{
-    border-radius: 50%;
-    background-color: #fff;
-    box-shadow:
-      0 0 8px 5px #fff,  /* inner white */
-      0 0 11px 8px #f0f, /* middle magenta */
-      0 0 13px 13px #0ff; /* outer cyan */
+    box-shadow: 0 0 6px 6px rgb(34, 16, 58);
+    color: #CCBBEE;
 }
 
 .ReportWrapper{

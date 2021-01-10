@@ -5,11 +5,11 @@
 }
 
 .slick-next{
-    left: 31vw;
+    left: 50vw;
 }
 
 .slick-prev{
-    right: 81vw;
+    right: 50vw;
 }
 
 .slick-next::before{

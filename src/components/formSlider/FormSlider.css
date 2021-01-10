@@ -15,7 +15,7 @@
     color: #423baa;
     height: 24px;
     width: 58px;
-    margin-right: 60px;
+    margin-left: calc(50vw + 32px);
 }
 
 .FormSlider .slick-prev::before{
@@ -24,6 +24,6 @@
     color: #423baa;
     height: 24px;
     width: 58px;
-    margin-left: 40px;
+    margin-left: calc(50vw - 32px);
 }
 

@@ -15,7 +15,7 @@
     color: #423baa;
     height: 24px;
     width: 58px;
-    left: calc(50% - 32px);
+    left: calc(50% - 16px);
     position: relative;
 }
 
@@ -25,7 +25,8 @@
     color: #423baa;
     height: 24px;
     width: 58px;
-    left: calc(50% + 32px);
+    left: calc(50% + 16px);
     position: relative;
+    z-index: 999999999;
 }
 

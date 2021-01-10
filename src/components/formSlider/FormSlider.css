@@ -5,11 +5,13 @@
 }
 
 .nextForm{
+    background-color: white;
     color: #4e43ac;
     left: 87vw;
 }
 
 .prevForm{
+    background-color: white;
     color: #4e43ac;
     left: 13vw;
 }

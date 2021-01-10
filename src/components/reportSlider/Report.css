@@ -10,14 +10,20 @@
     color: #4e43ac;
 }
 
+.slick-next{
+    left: 31vw;
+}
+
+.slick-prev{
+    right: 81vw;
+}
+
 .slick-next::before{
     color: #4e43ac;
-    left: 31vw;
 }
 
 .slick-prev::before{
     color: #4e43ac;
-    right: 81vw;
 }
 
 .ReportWrapper{

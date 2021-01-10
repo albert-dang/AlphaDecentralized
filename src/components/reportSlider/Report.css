@@ -27,3 +27,8 @@
 .signalsBody, .indicatorsBody, .metricsBody{
     flex: 1;
 }
+
+.slick-next, .slick-prev{
+    position: absolute;
+    z-index: 100;
+}

@@ -1,0 +1,9 @@
+.Enigma-logo {
+    pointer-events: none;
+    max-height: 8vh;
+  }
+  
+.Enigma-showcase{
+    align-items: center;
+    justify-content: center;
+  }

@@ -14,7 +14,7 @@ i{
     cursor: grabbing;
 }
 
-.nextForm{
+.FormSlider .nextForm{
     background-color: #423baa;
     border: 0;
     box-shadow: 13px 13px #1e0b52;
@@ -25,7 +25,7 @@ i{
     position: relative;
 }
 
-.prevForm{
+.FormSlider .prevForm{
     background-color: #423baa;
     border: 0;
     box-shadow: 13px 13px #1e0b52;

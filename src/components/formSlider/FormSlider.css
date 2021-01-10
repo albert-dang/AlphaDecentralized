@@ -4,14 +4,14 @@
     background-color: #1f1131;
 }
 
-.nextForm::before{
-    background-color: white;
+.slick-next:before{
     color: #4e43ac;
     left: 87vw;
+    position: relative;
 }
 
-.prevForm::before{
-    background-color: white;
+.slick-prev:before{
     color: #4e43ac;
     left: 13vw;
+    position: relative;
 }

@@ -10,10 +10,11 @@
 }
 
 .FormSlider .slick-next::before{
-    background-color: #423baa;
+    background-color: white;
     border: 0;
-    box-shadow: 13px 13px #1e0b52;
-    color: white;
+    border-radius: 13px;
+    box-shadow: 8px 8px  #120e24;
+    color: #423baa;
     height: 24px;
     width: 58px;
     left: -13vw;
@@ -21,10 +22,11 @@
 }
 
 .FormSlider .slick-prev::before{
-    background-color: #423baa;
+    background-color: white;
     border: 0;
-    box-shadow: 13px 13px #1e0b52;
-    color: white;
+    border-radius: 13px;
+    box-shadow: 8px 8px #120e24;
+    color: #423baa;
     height: 24px;
     width: 58px;
     left: 13vw;

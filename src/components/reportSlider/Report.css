@@ -10,6 +10,30 @@
     color: #4e43ac;
 }
 
+.ReportSlider .slick-next::before{
+    background-color: white;
+    border: 0;
+    border-radius: 13px;
+    box-shadow: 8px 8px  #120e24;
+    color: #423baa;
+    height: 24px;
+    width: 58px;
+    left: -32vw;
+    position: relative;
+}
+
+.ReportSlider .slick-prev::before{
+    background-color: white;
+    border: 0;
+    border-radius: 13px;
+    box-shadow: 8px 8px #120e24;
+    color: #423baa;
+    height: 24px;
+    width: 58px;
+    left: 32vw;
+    position: relative;
+}
+
 .nextReport{
     color: #4e43ac;
     left: -32vw;

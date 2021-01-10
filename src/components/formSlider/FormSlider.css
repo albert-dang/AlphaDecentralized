@@ -5,13 +5,24 @@
 }
 
 .nextForm{
-    color: #4e43ac;
+    background-color: #423baa;
+    border: 0;
+    box-shadow: 13px 13px #1e0b52;
+    color: white;
+    height: 24px;
+    width: 58px;
     left: -13vw;
     position: relative;
 }
 
 .prevForm{
-    color: #4e43ac;
+    background-color: #423baa;
+    border: 0;
+    box-shadow: 13px 13px #1e0b52;
+    color: white;
+    height: 24px;
+    width: 58px;
     left: 13vw;
     position: relative;
 }
+

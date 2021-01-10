@@ -19,12 +19,12 @@
     text-align: center;
 }
 
-.next-arrow{
+.slick-next{
     color: #4b349e;
     left: 31vw;
 }
 
-.prev-arrow{
+.slick-prev{
     color: #4b349e;
     right: 81vw;
 }

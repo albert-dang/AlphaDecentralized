@@ -10,7 +10,6 @@ import './FormSlider.css'
 export default class FormSlider extends Component{
     render(){
         const settings = {
-            adaptiveHeight: true,
             arrows: false,
             dots: false,
             infinite: true,

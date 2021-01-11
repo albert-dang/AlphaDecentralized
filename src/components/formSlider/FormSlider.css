@@ -1,3 +1,9 @@
+.FormSliderWrapper{
+    align-items: center;
+    align-content: center;
+    background-color: #1f1131;
+}
+
 .FormSlider{
     align-items: center;
     align-content: center;

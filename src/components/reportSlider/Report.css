@@ -1,4 +1,4 @@
-.ReportWrapper{
+.reportWrapper{
     align-items: center;
     align-content: center;
     color: white;
@@ -8,8 +8,12 @@
     text-align: center;
 }
 
-.ReportWrapper:active{
+.reportWrapper:active{
     cursor: grabbing;
+}
+
+.reportSlider .slick-dots{
+    position: relative;
 }
 
 .signalsBody, .indicatorsBody, .metricsBody{

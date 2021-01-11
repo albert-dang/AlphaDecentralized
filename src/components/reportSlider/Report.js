@@ -13,8 +13,8 @@ export default class ShowcaseSlider extends Component{
             slidesToScroll: 1,
         }
         return (
-            <div className='ReportWrapper'>
-                <Slider {...settings} className='ReportSlider'>
+            <div className='reportWrapper'>
+                <Slider {...settings} className='reportSlider'>
                     <div className='signals'>
                         <h2>Signals</h2>
                         <div className='signalsBody'></div>

@@ -18,11 +18,11 @@
 
 .FormSlider .slick-next::before{
     color: lavender;
-    height:8px;
+    height:32px;
     position: relative;
     right: calc(50vw - 160px);
     top: -60px;
-    width: 8px;
+    width: 32px;
     z-index: 10;
 }
 

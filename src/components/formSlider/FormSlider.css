@@ -16,6 +16,12 @@
     cursor: grabbing;
 }
 
+.FormSlider .slick-dots{
+    top: -6px;
+    padding-bottom: 18px;
+    position: relative;
+}
+
 .slick-dots{
     pointer-events: none;
 }

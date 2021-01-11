@@ -10,7 +10,7 @@ import './FormSlider.css'
 export default class FormSlider extends Component{
     render(){
         const settings = {
-            arrows: false,
+            arrows: true,
             dots: false,
             infinite: true,
             slidesToShow: 1,

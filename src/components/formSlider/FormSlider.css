@@ -20,8 +20,8 @@
     color: lavender;
     height:32px;
     position: relative;
-    right: calc(50vw - 160px);
-    top: -60px;
+    right: calc(50vw - 148px);
+    top: -52px;
     width: 32px;
     z-index: 10;
 }

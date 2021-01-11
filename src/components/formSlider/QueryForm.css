@@ -30,6 +30,13 @@ input{
     width: 246px;
 }
 
+.QueryFormWrapper{
+    background-color: #1f1131;
+    padding-bottom: 24px;
+    margin: auto;
+    width: fit-content;
+}
+
 .QueryForm{
     background-color: #331874;
     border: #270e4e;

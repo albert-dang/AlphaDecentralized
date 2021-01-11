@@ -15,7 +15,7 @@
     cursor: grabbing;
 }
 
-.stockTab, .cryptoTab{
+.queryLabel, .nextQuery, .prevQuery{
     background-color: #423baa;
     border: 0;
     color: white;

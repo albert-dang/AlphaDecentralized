@@ -16,7 +16,7 @@
     cursor: grabbing;
 }
 
-.FormsSlider .slick-next::before{
+.FormSlider .slick-next::before{
     color: #423baa;
     left: calc(50vw + 160px);
     position: relative;
@@ -26,4 +26,5 @@
     color: #423baa;
     left: calc(50vw - 160px);
     position: relative;
+    z-index: 10;
 }

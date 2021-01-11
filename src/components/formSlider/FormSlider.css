@@ -16,8 +16,16 @@
     cursor: grabbing;
 }
 
+.FormsSlider .slick-prev::before{
+    color: #423baa;
+    left: calc(50vw + 156px);
+    position: relative;
+    top: auto;
+}
+
 .FormSlider .slick-prev::before{
     color: #423baa;
-    left: calc(50vw - 135px);
+    left: calc(50vw - 156px);
     position: relative;
+    top: auto;
 }

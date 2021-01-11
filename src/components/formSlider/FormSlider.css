@@ -19,14 +19,14 @@
 .FormSlider .slick-next::before{
     color: lavender;
     right: calc(50vw - 92px);
-    opacity: 0;
+    opacity: 1;
     position: relative;
     top: -96px;
     transition: opacity 0.6s ease-in-out;
     z-index: 10;
 }
 
-.FormSlider .slick-next:active{
+.FormSlider .slick-next:active::before{
     opacity: 1;
     transition: opacity 0.6s ease-in-out;
 }

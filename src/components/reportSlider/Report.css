@@ -11,3 +11,7 @@
 .ReportWrapper:active{
     cursor: grabbing;
 }
+
+.signalsBody, .indicatorsBody, .metricsBody{
+    padding-bottom: 62vh;
+}

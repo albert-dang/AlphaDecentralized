@@ -12,8 +12,6 @@ export default class FormSlider extends Component{
         const settings = {
             adaptiveHeight: true,
             arrows: false,
-            centerMode: true,
-            centerPadding: '0%',
             dots: false,
             infinite: true,
             slidesToShow: 1,
@@ -22,6 +20,8 @@ export default class FormSlider extends Component{
         }
         return (
             <div className='FormSliderWrapper'>
+                <button className='stockTab'>Stocks</button>
+                <button className='cryptoTab'>Crypto</button>
                 <Slider {...settings} className='FormSlider'>
                     <StockForm />
                     <CryptoForm />

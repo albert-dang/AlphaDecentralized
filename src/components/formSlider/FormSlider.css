@@ -8,3 +8,13 @@
 .FormSlider:active{
     cursor: grabbing;
 }
+
+.stockTab, .cryptoTab{
+    background-color: #423baa;
+    border: 0;
+    box-shadow: 13px 13px #1e0b52;
+    color: white;
+    cursor: pointer;
+    height: 24px;
+    width: 58px;
+}

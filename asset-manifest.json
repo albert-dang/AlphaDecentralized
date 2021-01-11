@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AlphaDecentralized/static/css/main.b3f62d01.chunk.css",
+    "main.css": "/AlphaDecentralized/static/css/main.7c97fa0c.chunk.css",
     "main.js": "/AlphaDecentralized/static/js/main.400c030a.chunk.js",
     "main.js.map": "/AlphaDecentralized/static/js/main.400c030a.chunk.js.map",
     "runtime-main.js": "/AlphaDecentralized/static/js/runtime-main.d35ef38c.js",
@@ -12,7 +12,7 @@
     "static/js/3.3a6a5337.chunk.js.map": "/AlphaDecentralized/static/js/3.3a6a5337.chunk.js.map",
     "index.html": "/AlphaDecentralized/index.html",
     "static/css/2.0ed7d64a.chunk.css.map": "/AlphaDecentralized/static/css/2.0ed7d64a.chunk.css.map",
-    "static/css/main.b3f62d01.chunk.css.map": "/AlphaDecentralized/static/css/main.b3f62d01.chunk.css.map",
+    "static/css/main.7c97fa0c.chunk.css.map": "/AlphaDecentralized/static/css/main.7c97fa0c.chunk.css.map",
     "static/js/2.a7f3ea5d.chunk.js.LICENSE.txt": "/AlphaDecentralized/static/js/2.a7f3ea5d.chunk.js.LICENSE.txt",
     "static/media/Pandas_logo.47aa8f84.svg": "/AlphaDecentralized/static/media/Pandas_logo.47aa8f84.svg",
     "static/media/coinlayer_logo.be650831.svg": "/AlphaDecentralized/static/media/coinlayer_logo.be650831.svg",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.d35ef38c.js",
     "static/css/2.0ed7d64a.chunk.css",
     "static/js/2.a7f3ea5d.chunk.js",
-    "static/css/main.b3f62d01.chunk.css",
+    "static/css/main.7c97fa0c.chunk.css",
     "static/js/main.400c030a.chunk.js"
   ]
 }

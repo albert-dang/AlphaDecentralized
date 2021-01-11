@@ -16,26 +16,6 @@
     cursor: grabbing;
 }
 
-.FormSlider .slick-next::before{
-    color: lavender;
-    height:32px;
-    position: relative;
-    right: calc(50vw - 148px);
-    top: -52px;
-    width: 32px;
-    z-index: 10;
-}
-
-.FormSlider .slick-prev::before{
-    display: none;
-}
-
-.FormSlider .slick-dots{
-    top: -6px;
-    padding-bottom: 18px;
-    position: relative;
-}
-
 .slick-dots{
     pointer-events: none;
 }

@@ -20,9 +20,10 @@
     border: 0;
     color: white;
     cursor: pointer;
-    left: calc(50vw - 62);
+    left: calc(50vw - 62px);
     height: 24px;
     position: relative;
     top: 8px;
     width: 58px;
+    z-index: 99;
 }

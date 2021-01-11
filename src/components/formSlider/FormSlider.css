@@ -30,6 +30,7 @@
 }
 
 .FormSlider .slick-dots{
+    padding-top: 13px;
     padding-bottom: 24px;
 }
 

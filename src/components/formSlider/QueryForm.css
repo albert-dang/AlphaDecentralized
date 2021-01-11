@@ -33,7 +33,7 @@ input{
 .QueryFormWrapper{
     background-color: #1f1131;
     padding-top: 24px;
-    padding-bottom: 34px;
+    padding-bottom: 28px;
     margin: auto;
     width: fit-content;
 }
@@ -43,7 +43,7 @@ input{
     border: #270e4e;
     border-width: 8px;
     border-style: solid;
-    box-shadow: 15px 32px #120e24;
+    box-shadow: 15px 28px #120e24;
     width: fit-content;
 }
 

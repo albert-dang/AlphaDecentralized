@@ -20,16 +20,16 @@
     color: #423baa;
     right: calc(50vw - 160px);
     position: relative;
-    top: -62px;
-    z-index: 100;
+    top: -100px;
+    z-index: 9999;
 }
 
 .FormSlider .slick-prev::before{
     color: #423baa;
     left: calc(50vw - 160px);
     position: relative;
-    top: -62px;
-    z-index: 100;
+    top: -100px;
+    z-index: 9999;
 }
 
 .FormSlider .slick-dots{

@@ -18,18 +18,14 @@
 
 .FormSlider .slick-next::before{
     color: #423baa;
-    right: calc(50vw - 160px);
+    right: calc(50vw - 98px);
     position: relative;
-    top: -100px;
-    z-index: 9999;
+    top: -98px;
+    z-index: 10;
 }
 
 .FormSlider .slick-prev::before{
-    color: #423baa;
-    left: calc(50vw - 160px);
-    position: relative;
-    top: -100px;
-    z-index: 9999;
+    display: none;
 }
 
 .FormSlider .slick-dots{

@@ -18,6 +18,6 @@
 
 .FormSlider .slick-prev::before{
     color: #423baa;
-    left: calc(50vw - 62px);
+    left: calc(50vw - 135px);
     position: relative;
 }

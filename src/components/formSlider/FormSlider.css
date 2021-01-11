@@ -1,6 +1,8 @@
 .FormSliderWrapper{
     align-items: center;
     align-content: center;
+    background-color: #1f1131;
+    margin: auto;
 }
 
 .FormSlider{
@@ -17,7 +19,6 @@
 .stockTab, .cryptoTab{
     background-color: #423baa;
     border: 0;
-    box-shadow: 13px 13px #1e0b52;
     color: white;
     cursor: pointer;
     height: 24px;

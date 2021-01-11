@@ -20,7 +20,7 @@
     border: 0;
     color: white;
     cursor: pointer;
-    left: calc(50vw + 78px);
+    left: calc(50vw + 32px);
     position: relative;
     z-index: 99;
 }
@@ -30,7 +30,7 @@
     border: 0;
     color: white;
     cursor: pointer;
-    left: calc(50vw - 78);
+    left: calc(50vw - 32);
     position: relative;
     z-index: 99;
 }

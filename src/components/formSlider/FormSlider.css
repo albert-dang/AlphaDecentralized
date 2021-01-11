@@ -17,10 +17,10 @@
 }
 
 .FormSlider .slick-next::before{
-    color: #423baa;
-    right: calc(50vw - 98px);
+    color: lavenderblush;
+    right: calc(50vw - 92px);
     position: relative;
-    top: -98px;
+    top: -96px;
     z-index: 10;
 }
 

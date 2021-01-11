@@ -19,9 +19,8 @@ export default class FormSlider extends Component{
         }
         return (
             <div className='FormSliderWrapper'>
-                <i class='fa fa-arrow-right nextForm'></i>
-                <label className='formLabel'>Stocks</label>
-                <i class='fa fa-arrow-left prevForm'></i>
+                <button className='prevForm'><i class='fa fa-arrow-left'></i></button>
+                <button className='nextForm'><i class='fa fa-arrow-left'></i></button>
                 <Slider {...settings} className='FormSlider'>
                     <StockForm />
                     <CryptoForm />

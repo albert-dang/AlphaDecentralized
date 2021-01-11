@@ -15,12 +15,22 @@
     cursor: grabbing;
 }
 
-.queryLabel, .nextQuery, .prevQuery{
+.nextForm{
     background-color: #423baa;
     border: 0;
     color: white;
     cursor: pointer;
-    left: calc(50vw - 78px);
+    left: calc(50vw + 78px);
+    position: relative;
+    z-index: 99;
+}
+
+.prevForm{
+    background-color: #423baa;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    left: calc(50vw - 78);
     position: relative;
     z-index: 99;
 }

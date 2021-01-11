@@ -29,6 +29,10 @@
     z-index: 10;
 }
 
+.FormSlider .slick-dots{
+    padding-bottom: 24px;
+}
+
 .slick-dots{
     pointer-events: none;
 }

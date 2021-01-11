@@ -2,6 +2,8 @@
     align-items: center;
     align-content: center;
     background-color: #1f1131;
+    padding-top: 24px;
+    position: relative;
 }
 
 .FormSlider{

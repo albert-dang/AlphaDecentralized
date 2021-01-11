@@ -2,8 +2,6 @@
     align-items: center;
     align-content: center;
     background-color: #1f1131;
-    left: calc(50vw - 78px);
-    position: relative;
 }
 
 .FormSlider{
@@ -22,6 +20,8 @@
     border: 0;
     color: white;
     cursor: pointer;
+    left: calc(50vw - 62);
     height: 24px;
+    top: 8px;
     width: 58px;
 }

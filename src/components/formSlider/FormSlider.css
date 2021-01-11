@@ -2,6 +2,7 @@
     align-items: center;
     align-content: center;
     background-color: #1f1131;
+    position: relative;
 }
 
 .FormSlider{
@@ -13,24 +14,4 @@
 
 .FormSlider:active{
     cursor: grabbing;
-}
-
-.nextForm{
-    background-color: #423baa;
-    border: 0;
-    color: white;
-    cursor: pointer;
-    left: calc(50vw + 32px);
-    position: relative;
-    z-index: 99;
-}
-
-.prevForm{
-    background-color: #423baa;
-    border: 0;
-    color: white;
-    cursor: pointer;
-    left: calc(50vw - 32);
-    position: relative;
-    z-index: 99;
 }

@@ -22,13 +22,7 @@
     opacity: 1;
     position: relative;
     top: -96px;
-    transition: opacity 0.6s ease-in-out;
     z-index: 10;
-}
-
-.FormSlider .slick-next:active::before{
-    opacity: 1;
-    transition: opacity 0.6s ease-in-out;
 }
 
 .FormSlider .slick-prev::before{

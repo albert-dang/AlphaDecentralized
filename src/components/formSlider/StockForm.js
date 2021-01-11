@@ -27,7 +27,7 @@ export default class StockForm extends Component{
     render(){
         const{symbol} = this.state
         return(
-            <div className='QueryPadder'>
+            <div className='QueryFormWrapper'>
                 <form className='QueryForm' onSubmit={this.onSubmit}>
                     <h1>Stocks (NYSE)</h1>
                     <label className='SymbolLabel'>

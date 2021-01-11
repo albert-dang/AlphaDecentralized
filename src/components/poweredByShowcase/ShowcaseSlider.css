@@ -1,8 +1,9 @@
-.SliderWrapper{
+.sliderWrapper{
     background-color: #8381d3;
     cursor: pointer;
+    position: relative;
 }
 
-.ShowcaseSlider{
+.showcaseSlider{
     height: 10vh;
 }

@@ -21,8 +21,8 @@ export default class ShowcaseSlider extends Component{
             slidesToScroll: 1,
         }
         return (
-            <div className='SliderWrapper'>
-                <Slider {...settings} className='ShowcaseSlider'>
+            <div className='sliderWrapper'>
+                <Slider {...settings} className='showcaseSlider'>
                     <div>
                         <PoweredByReact />
                     </div>

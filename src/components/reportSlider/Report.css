@@ -6,7 +6,6 @@
     background-color: #1f1131;
     flex: 1;
     text-align: center;
-    top: 2vh;
 }
 
 .reportWrapper:active{
@@ -19,5 +18,5 @@
 }
 
 .signalsBody, .indicatorsBody, .metricsBody{
-    padding-bottom: 62vh;
+    padding-bottom: 48vh;
 }

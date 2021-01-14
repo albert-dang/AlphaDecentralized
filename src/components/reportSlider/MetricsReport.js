@@ -9,7 +9,6 @@ export default function MetricsReport(){
 
         return(
           <div className='MetricsReport'>
-            {res.data.data}
           </div>
         )
     } catch (err) {

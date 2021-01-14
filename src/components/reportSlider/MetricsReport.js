@@ -15,4 +15,6 @@ export default function MetricsReport(){
         console.error(err)
     }
   }
+
+  listAssets()
 }

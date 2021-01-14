@@ -18,16 +18,12 @@
 
 .formSlider.arrowPrev::before{
     left: calc(50vw - 160px);
-    position: relative;
     top: -160px;
-    z-index: -10;
 }
 
 .formSlider.arrowNext::before{
     left: calc(50vw - 160px);
-    position: relative;
     top: 160px;
-    z-index: -10;
 }
 
 .formSlider.slick-dots{

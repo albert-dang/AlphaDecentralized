@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/AlphaDecentralized/static/css/main.917be725.chunk.css",
-    "main.js": "/AlphaDecentralized/static/js/main.cabadbb6.chunk.js",
-    "main.js.map": "/AlphaDecentralized/static/js/main.cabadbb6.chunk.js.map",
+    "main.css": "/AlphaDecentralized/static/css/main.3b6ca281.chunk.css",
+    "main.js": "/AlphaDecentralized/static/js/main.cedb2e77.chunk.js",
+    "main.js.map": "/AlphaDecentralized/static/js/main.cedb2e77.chunk.js.map",
     "runtime-main.js": "/AlphaDecentralized/static/js/runtime-main.09f30864.js",
     "runtime-main.js.map": "/AlphaDecentralized/static/js/runtime-main.09f30864.js.map",
     "static/css/2.0ed7d64a.chunk.css": "/AlphaDecentralized/static/css/2.0ed7d64a.chunk.css",
-    "static/js/2.d89c79fa.chunk.js": "/AlphaDecentralized/static/js/2.d89c79fa.chunk.js",
-    "static/js/2.d89c79fa.chunk.js.map": "/AlphaDecentralized/static/js/2.d89c79fa.chunk.js.map",
+    "static/js/2.28c9f51b.chunk.js": "/AlphaDecentralized/static/js/2.28c9f51b.chunk.js",
+    "static/js/2.28c9f51b.chunk.js.map": "/AlphaDecentralized/static/js/2.28c9f51b.chunk.js.map",
     "static/js/3.065bf7a4.chunk.js": "/AlphaDecentralized/static/js/3.065bf7a4.chunk.js",
     "static/js/3.065bf7a4.chunk.js.map": "/AlphaDecentralized/static/js/3.065bf7a4.chunk.js.map",
     "index.html": "/AlphaDecentralized/index.html",
     "static/css/2.0ed7d64a.chunk.css.map": "/AlphaDecentralized/static/css/2.0ed7d64a.chunk.css.map",
-    "static/css/main.917be725.chunk.css.map": "/AlphaDecentralized/static/css/main.917be725.chunk.css.map",
-    "static/js/2.d89c79fa.chunk.js.LICENSE.txt": "/AlphaDecentralized/static/js/2.d89c79fa.chunk.js.LICENSE.txt",
+    "static/css/main.3b6ca281.chunk.css.map": "/AlphaDecentralized/static/css/main.3b6ca281.chunk.css.map",
+    "static/js/2.28c9f51b.chunk.js.LICENSE.txt": "/AlphaDecentralized/static/js/2.28c9f51b.chunk.js.LICENSE.txt",
     "static/media/Pandas_logo.47aa8f84.svg": "/AlphaDecentralized/static/media/Pandas_logo.47aa8f84.svg",
     "static/media/coinlayer_logo.be650831.svg": "/AlphaDecentralized/static/media/coinlayer_logo.be650831.svg",
     "static/media/enigmaco-logo.b17aa4d4.svg": "/AlphaDecentralized/static/media/enigmaco-logo.b17aa4d4.svg",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.09f30864.js",
     "static/css/2.0ed7d64a.chunk.css",
-    "static/js/2.d89c79fa.chunk.js",
-    "static/css/main.917be725.chunk.css",
-    "static/js/main.cabadbb6.chunk.js"
+    "static/js/2.28c9f51b.chunk.js",
+    "static/css/main.3b6ca281.chunk.css",
+    "static/js/main.cedb2e77.chunk.js"
   ]
 }

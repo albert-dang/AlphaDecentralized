@@ -30,7 +30,7 @@ input{
     width: 246px;
 }
 
-.QueryFormWrapper{
+.queryFormWrapper{
     background-color: #1f1131;
     padding-top: 24px;
     padding-bottom: 28px;
@@ -38,7 +38,7 @@ input{
     width: fit-content;
 }
 
-.QueryForm{
+.queryForm{
     background-color: #331874;
     border: #270e4e;
     border-width: 8px;
@@ -47,7 +47,7 @@ input{
     width: fit-content;
 }
 
-.QueryButton{
+.queryButton{
     background-color: #423baa;
     border: 0;
     box-shadow: 13px 13px #1e0b52;
@@ -57,7 +57,7 @@ input{
     width: 58px;
 }
 
-.QueryButtonWrapped{
+.queryButtonWrapped{
     display: block;
     margin-bottom: 39px;
     margin-left: 188px;

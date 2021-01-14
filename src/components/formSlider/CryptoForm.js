@@ -18,17 +18,6 @@ export default class CryptoForm extends Component{
         e.preventDefault()
         const{symbol} = this.state
 
-        const listAssets = async () => {
-            try {
-                const res = await axios.get('https://dangitsal.pythonanywhere.com/api/fullsheet')
-                console.log(res.data)
-        
-            } catch (err) {
-                console.error(err)
-            }
-        }
-        listAssets()
-
         axios.post('/', {symbol})
             .then((result) => {
                 //Access results
@@ -38,15 +27,15 @@ export default class CryptoForm extends Component{
     render(){
         const{symbol} = this.state
         return(
-            <div className='QueryFormWrapper'>
-                <form className='QueryForm' onSubmit={this.onSubmit}>
+            <div className='queryFormWrapper'>
+                <form className='queryForm' onSubmit={this.onSubmit}>
                     <h1>Crypto</h1>
                     <label className='SymbolLabel'>
                         Symbol(s):
                         <input type='text' name='symbol' value={symbol} onChange={this.onChange}/>
                     </label>
-                    <div className='QueryButtonWrapped'>
-                        <button className='QueryButton' type='submit'>
+                    <div className='queryButtonWrapped'>
+                        <button className='queryButton' type='submit'>
                             Analyze
                         </button>
                     </div>

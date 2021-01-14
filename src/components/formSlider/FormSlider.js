@@ -18,8 +18,8 @@ export default class FormSlider extends Component{
             speed: 785
         }
         return (
-            <div className='FormSliderWrapper'>
-                <Slider {...settings} className='FormSlider'>
+            <div className='formSliderWrapper'>
+                <Slider {...settings} className='formSlider'>
                     <StockForm />
                     <CryptoForm />
                 </Slider>

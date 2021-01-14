@@ -3,6 +3,6 @@ import {FaCaretRight} from 'react-icons/fa'
 
 export default function SliderArrowNext(){
     return(
-        <FaCaretRight className='arrowNext' size='32px'/>
+        <FaCaretRight className='arrowNext' size='32px' style={{fill: '#423baa'}}/>
     )
 }

@@ -3,6 +3,6 @@ import {FaCaretLeft} from 'react-icons/fa'
 
 export default function SliderArrowPrev(){
     return(
-        <FaCaretLeft className='arrowPrev' size='32px'/>
+        <FaCaretLeft className='arrowPrev' size='32px' style={{fill: '#423baa'}}/>
     )
 }

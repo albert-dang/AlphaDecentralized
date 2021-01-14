@@ -17,14 +17,16 @@
 }
 
 .formSlider.arrowPrev::before{
-    color: #423baa;
+    left: calc(50vw - 160px);
     position: relative;
+    top: -160px;
     z-index: -10;
 }
 
 .formSlider.arrowNext::before{
-    color: #423baa;
+    left: calc(50vw - 160px);
     position: relative;
+    top: 160px;
     z-index: -10;
 }
 

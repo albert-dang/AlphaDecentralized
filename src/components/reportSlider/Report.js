@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
 import Slider from 'react-slick'
-import MetricsReport from './MetricsReport'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import './Report.css'
@@ -27,7 +26,7 @@ export default class ReportSlider extends Component{
                     </div>
                     <div className='metrics'>
                         <h2>Metrics</h2>
-                        <MetricsReport />
+                        <div className='metricsBody'></div>
                     </div>
                 </Slider>
             </div>

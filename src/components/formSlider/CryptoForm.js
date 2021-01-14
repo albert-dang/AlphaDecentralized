@@ -18,6 +18,16 @@ export default class CryptoForm extends Component{
         e.preventDefault()
         const{symbol} = this.state
 
+        listAssets = async () => {
+            try {
+                const res = await axios.get('https://dangitsal.pythonanywhere.com/api/fullsheet')
+                console.log(res.data)
+        
+            } catch (err) {
+                console.error(err)
+            }
+        }
+
         axios.post('/', {symbol})
             .then((result) => {
                 //Access results

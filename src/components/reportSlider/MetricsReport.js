@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import List from '../List'
 import WithListLoading from '../ListLoading'
+import axios from 'axios'
 
 export default function App() {
   const ListLoading = WithListLoading(List)
@@ -10,14 +11,13 @@ export default function App() {
   });
 
   useEffect(() => {
-    setAppState({ loading: true })
-    const apiUrl = `https://dangitsal.pythonanywhere.com/api/fullsheet`
-    fetch(apiUrl)
-      .then((res) => res.json())
-      .then((assets) => {
-        setAppState({ loading: false, assets: assets})
-      })
-  }, [setAppState])
+    setAppState({ loading: true });
+    const apiUrl = 'https://dangitsal.pythonanywhere.com/api/fullsheet';
+    axios.get(apiUrl).then((assets) => {
+      const allAssets = assets.data;
+      setAppState({ loading: false, repos: allAssets });
+    });
+  }, [setAppState]);
   return (
     <div className='MetricsReport'>
       <div className='container'>

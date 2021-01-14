@@ -3,5 +3,5 @@ import axios from 'axios'
 
 export default function MetricsReport(){
   const data = axios.request({url: 'https://dangitsal.pythonanywhere.com/api/fullsheet'}).data
-  return <p>${data}</p>
+  return <p>{data}</p>
 }

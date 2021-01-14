@@ -1,6 +1,6 @@
 import React from 'react'
 
-const List = (assets) => {
+export const List = (props) => {
   const {assets} = props
   if (!assets || assets.length === 0) return <p>No assets found.</p>
   return (
@@ -17,4 +17,3 @@ const List = (assets) => {
     </ul>
   )
 }
-export default List

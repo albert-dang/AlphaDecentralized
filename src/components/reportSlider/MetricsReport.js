@@ -12,9 +12,7 @@ export default function App() {
   useEffect(() => {
     setAppState({ loading: true })
     const apiUrl = `https://dangitsal.pythonanywhere.com/api/fullsheet/`
-    fetch(apiUrl, {
-        mode: 'no-cors'
-    })
+    fetch(apiUrl)
       .then((res) => res.json())
       .then((assets) => {
         setAppState({ loading: false, assets: assets})

@@ -1,7 +1,7 @@
 import React from 'react'
 import {FaCaretLeft, FaCaretRight} from 'react-icons/fa'
 
-export function SliderArrowPrev(){
+export default function SliderArrowPrev(){
     return(
         <FaCaretLeft className='arrowPrev'/>
     )

@@ -5,7 +5,7 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import './Report.css'
 
-export default class ShowcaseSlider extends Component{
+export default class ReportSlider extends Component{
     render(){
         const settings = {
             arrows: false,

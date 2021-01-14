@@ -16,16 +16,6 @@
     cursor: grabbing;
 }
 
-.formSlider.arrowPrev::before{
-    left: calc(50vw - 160px);
-    top: -160px;
-}
-
-.formSlider.arrowNext::before{
-    left: calc(50vw - 160px);
-    top: 160px;
-}
-
 .formSlider.slick-dots{
     top: -6px;
     padding-bottom: 14px;

@@ -1,4 +1,4 @@
-.formSlider.arrowPrev::before{
+.arrowPrev::before{
     left: calc(50vw - 160px);
     position: relative;
     top: -64px;

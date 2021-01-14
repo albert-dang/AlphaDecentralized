@@ -17,15 +17,17 @@
 }
 
 .formSlider.slick-prev::before{
-    left: calc(50vw - 160);
+    left: calc(50vw);
     pointer-events: none;
     position: relative;
+    top: -64px;
 }
 
 .formSlider.slick-next::before{
-    right: calc(50vw - 160);
+    right: calc(50vw);
     pointer-events: none;
     position: relative;
+    top: -64px;
 }
 
 .formSlider.slick-dots{

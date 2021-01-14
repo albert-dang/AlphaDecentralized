@@ -3,7 +3,7 @@ import List from '../List'
 import WithListLoading from '../ListLoading'
 import axios from 'axios'
 
-export default function App() {
+export default function MetricsReport() {
   const ListLoading = WithListLoading(List)
   const [appState, setAppState] = useState({
     loading: false,
@@ -15,7 +15,7 @@ export default function App() {
     const apiUrl = 'https://dangitsal.pythonanywhere.com/api/fullsheet';
     axios.get(apiUrl).then((assets) => {
       const allAssets = assets.data;
-      setAppState({ loading: false, repos: allAssets });
+      setAppState({ loading: false, assets: allAssets });
     });
   }, [setAppState]);
   return (

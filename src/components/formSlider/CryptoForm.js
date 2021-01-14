@@ -18,7 +18,7 @@ export default class CryptoForm extends Component{
         e.preventDefault()
         const{symbol} = this.state
 
-        listAssets = async () => {
+        const listAssets = async () => {
             try {
                 const res = await axios.get('https://dangitsal.pythonanywhere.com/api/fullsheet')
                 console.log(res.data)
@@ -27,6 +27,7 @@ export default class CryptoForm extends Component{
                 console.error(err)
             }
         }
+        listAssets()
 
         axios.post('/', {symbol})
             .then((result) => {

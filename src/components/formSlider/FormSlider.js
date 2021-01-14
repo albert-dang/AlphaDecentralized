@@ -1,11 +1,12 @@
 import React, {Component} from 'react'
 import Slider from 'react-slick'
+import SliderArrowPrev from '../SliderArrows'
+import SliderArrowNext from '../SliderArrows'
 import CryptoForm from './CryptoForm'
 import StockForm from './StockForm'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import './FormSlider.css'
-<link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
 
 export default class FormSlider extends Component{
     render(){
@@ -13,6 +14,8 @@ export default class FormSlider extends Component{
             arrows: true,
             dots: true,
             infinite: true,
+            nextArrow: <SliderArrowNext />,
+            prevArrow: <SliderArrowPrev />,
             slidesToShow: 1,
             slidesToScroll: 1,
             speed: 785

@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
-import List from '../List'
-import withListLoading from '../withListLoading'
+import List from './../List'
+import withListLoading from './../withListLoading'
 
 export default function App() {
   const ListLoading = withListLoading(List)

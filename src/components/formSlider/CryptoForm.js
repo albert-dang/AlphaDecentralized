@@ -23,7 +23,7 @@ export default class CryptoForm extends Component{
                 //ACCESS RESULTS HERE
             })
 
-        fetch('http://www.example.com/api/json/x/a/search.php?s=category')
+        fetch('https://dangitsal.pythonanywhere.com/api/fullsheet')
             .then(response => response.json())
             .then((jsonData) => {
             console.log(jsonData)

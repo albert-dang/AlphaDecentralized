@@ -23,7 +23,7 @@ export default class StockForm extends Component{
                 //Access results
             })
 
-        fetch('http://www.example.com/api/json/x/a/search.php?s=category')
+        fetch('https://dangitsal.pythonanywhere.com/api/fullsheet')
             .then(response => response.json())
             .then((jsonData) => {
             console.log(jsonData)

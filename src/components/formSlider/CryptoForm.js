@@ -20,7 +20,16 @@ export default class CryptoForm extends Component{
 
         axios.post('/', {symbol})
             .then((result) => {
-                //Access results
+                //ACCESS RESULTS HERE
+            })
+
+        fetch('http://www.example.com/api/json/x/a/search.php?s=category')
+            .then(response => response.json())
+            .then((jsonData) => {
+            console.log(jsonData)
+            })
+            .catch((error) => {
+            console.error(error)
             })
     }
 

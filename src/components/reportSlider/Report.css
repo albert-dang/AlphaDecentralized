@@ -10,6 +10,7 @@
 
 .reportWrapper:active{
     cursor: grabbing;
+    position: relative;
 }
 
 .reportSlider .slick-dots{

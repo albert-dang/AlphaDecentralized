@@ -5,8 +5,8 @@
     cursor: grab;
     background-color: #1f1131;
     flex: 1;
-    position: relative;
     text-align: center;
+    top: 28px;
 }
 
 .reportWrapper:active{

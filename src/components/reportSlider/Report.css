@@ -5,12 +5,12 @@
     cursor: grab;
     background-color: #1f1131;
     flex: 1;
+    position: relative;
     text-align: center;
 }
 
 .reportWrapper:active{
     cursor: grabbing;
-    position: relative;
 }
 
 .reportSlider .slick-dots{

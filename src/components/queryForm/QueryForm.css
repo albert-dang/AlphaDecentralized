@@ -30,6 +30,13 @@ input{
     width: 246px;
 }
 
+select{
+    background-color: lavender;
+    align-self: right;
+    border: #270e4e;
+    border-width: 8px;
+}
+
 .queryFormWrapper{
     background-color: #1f1131;
     padding-top: 24px;

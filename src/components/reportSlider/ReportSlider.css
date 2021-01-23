@@ -12,7 +12,7 @@
     cursor: grabbing;
 }
 
-.reportSlider .slick-dots{
+.reportSlider .slick-dots::before{
     padding-bottom: 48px;
     position: relative;
 }

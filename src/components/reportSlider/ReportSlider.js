@@ -27,7 +27,7 @@ export default class ReportSlider extends Component{
                     </div>
                     <div className='metrics'>
                         <h2>Metrics</h2>
-                        <MetricsReport />
+                        <MetricsReport className='metricsReport'/>
                     </div>
                 </Slider>
             </div>

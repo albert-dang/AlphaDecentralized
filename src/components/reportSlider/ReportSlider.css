@@ -12,11 +12,11 @@
     cursor: grabbing;
 }
 
-.reportSlider .slick-dots::before{
+.reportSlider .slick-dots{
     padding-bottom: 48px;
     position: relative;
 }
 
-.signalsBody, .indicatorsBody, .metricsBody{
+.signalsBody, .indicatorsBody, .metricsReport{
     padding-bottom: 48vh;
 }

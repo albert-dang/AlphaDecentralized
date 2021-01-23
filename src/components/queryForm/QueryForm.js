@@ -35,7 +35,8 @@ export default class QueryForm extends Component{
     }
 
     render(){
-        const{symbol} = this.state
+        const{assetClass} = this.state.assetClass
+        const{symbol} = this.state.symbol
         return(
             <div className='queryFormWrapper'>
                 <form className='queryForm' onSubmit={this.onSubmit}>

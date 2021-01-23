@@ -30,6 +30,7 @@ export default class StockForm extends Component{
             .then(response => response.json())
             .then((jsonData) => {
             console.log(jsonData)
+            dataPush = jsonData
             })
             .catch((error) => {
             console.error(error)
@@ -37,7 +38,7 @@ export default class StockForm extends Component{
     }
 
     render(){
-        const{data, setData} = this.context
+        const{setData} = this.context
         const{symbol} = this.state
 
         return(
@@ -53,7 +54,7 @@ export default class StockForm extends Component{
                             className='queryButton'
                             type='submit'
                             onClick={() => {
-                                setData(jsonData)
+                                setData(dataPush)
                             }}
                         >
                             Analyze

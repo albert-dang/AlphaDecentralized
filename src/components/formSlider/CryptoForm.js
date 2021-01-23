@@ -24,10 +24,10 @@ export default class CryptoForm extends Component{
 
         axios.post('/', {symbol})
             .then((result) => {
-                //ACCESS RESULTS HERE
+                console.log(result)
             })
 
-        fetch('https://dangitsal.pythonanywhere.com/api/fullsheet')
+        fetch('https://dangitsal.pythonanywhere.com/api/fullsheet?coin=BTC')
             .then(response => response.json())
             .then((jsonData) => {
                 console.log(JSON.stringify(jsonData))

@@ -13,10 +13,11 @@
 }
 
 .reportSlider .slick-dots{
-    padding-bottom: 48px;
+    color: white;
+    padding-bottom: 46px;
     position: relative;
 }
 
 .signalsBody, .indicatorsBody, .metricsReport{
-    padding-bottom: 48vh;
+    padding-bottom: 28vh;
 }

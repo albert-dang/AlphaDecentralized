@@ -8,6 +8,7 @@ export default class CryptoForm extends Component{
     constructor(){
         super()
         this.state = {
+            assetClass: 'crypto',
             symbol: 'BTC, ETH, XLM'
         }
     }
@@ -19,10 +20,10 @@ export default class CryptoForm extends Component{
     onSubmit = (e) => {
         e.preventDefault()
         const{setData} = this.context
-        const{symbol} = this.state
-        const url = `https://dangitsal.pythonanywhere.com/api/fullsheet?coin=${symbol}`
+        const{assetClass} = this.state.assetClass
+        const{symbol} = this.state.symbol
 
-        fetch(url)
+        fetch(`https://dangitsal.pythonanywhere.com/api/fullsheet?${assetClass}=${symbol}`)
             .then(response => response.json())
             .then((jsonData) => {
                 console.log(JSON.stringify(jsonData))

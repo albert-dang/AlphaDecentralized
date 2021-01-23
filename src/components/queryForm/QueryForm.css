@@ -32,7 +32,7 @@ input{
 select{
     background-color: lavender;
     border: 4px #270e4e;
-    left: 14vw;
+    left: 12vw;
     position: relative;
 }
 
@@ -66,5 +66,5 @@ select{
 .queryButtonWrapped{
     display: block;
     margin-bottom: 39px;
-    margin-left: 9vw;
+    margin-left: 10vw;
 }

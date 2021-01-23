@@ -1,6 +1,6 @@
-import React, {Component, useContext} from 'react'
+import React, {Component} from 'react'
 import axios from 'axios'
-import {ReportContext} from '../ReportContext'
+import MetricsGet from '../reportSlider/MetricsGet'
 import './QueryForm.css'
 
 export default class StockForm extends Component{
@@ -28,6 +28,7 @@ export default class StockForm extends Component{
             .then(response => response.json())
             .then((jsonData) => {
             console.log(jsonData)
+            MetricsGet(jsonData)
             })
             .catch((error) => {
             console.error(error)
@@ -36,7 +37,6 @@ export default class StockForm extends Component{
 
     render(){
         const{symbol} = this.state
-        const report = useContext(ReportContext)
 
         return(
             <div className='queryFormWrapper'>
@@ -47,7 +47,7 @@ export default class StockForm extends Component{
                         <input type='text' name='symbol' value={symbol} onChange={this.onChange}/>
                     </label>
                     <div className='queryButtonWrapped'>
-                        <button className='queryButton' type='submit' onClick={report.useContext(data)}>
+                        <button className='queryButton' type='submit'>
                             Analyze
                         </button>
                     </div>

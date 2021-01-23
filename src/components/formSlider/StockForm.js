@@ -37,6 +37,7 @@ export default class StockForm extends Component{
     }
 
     render(){
+        const{data, setData} = this.context
         const{symbol} = this.state
 
         return(

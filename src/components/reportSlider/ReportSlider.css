@@ -1,11 +1,11 @@
 .reportWrapper{
     align-items: center;
     align-content: center;
+    border: 16px;
     color: white;
     cursor: grab;
     background-color: #1f1131;
     flex: 1;
-    padding-bottom: 64vh;
     text-align: center;
 }
 

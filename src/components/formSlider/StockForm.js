@@ -5,7 +5,6 @@ import './QueryForm.css'
 
 export default class StockForm extends Component{
     static contextType = ReportContext
-    dataPush = {}
 
     constructor(){
         super()
@@ -41,7 +40,6 @@ export default class StockForm extends Component{
 
     render(){
         const{symbol} = this.state
-
         return(
             <div className='queryFormWrapper'>
                 <form className='queryForm' onSubmit={this.onSubmit}>

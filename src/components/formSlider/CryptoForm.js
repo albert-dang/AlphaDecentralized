@@ -1,8 +1,11 @@
 import React, {Component} from 'react'
 import axios from 'axios'
+import ReportContext from '../ReportContext'
 import './QueryForm.css'
 
 export default class CryptoForm extends Component{
+    static contextType = ReportContext
+
     constructor(){
         super()
         this.state = {
@@ -16,6 +19,7 @@ export default class CryptoForm extends Component{
 
     onSubmit = (e) => {
         e.preventDefault()
+        const{setData} = this.context
         const{symbol} = this.state
 
         axios.post('/', {symbol})

@@ -5,8 +5,6 @@ import PoweredByEnigma from './PoweredByEnigma'
 import PoweredByPandas from './PoweredByPandas'
 import PoweredByReact from './PoweredByReact'
 import PoweredByZipline from './PoweredByZipline'
-import '../queryForm/node_modules/slick-carousel/slick/slick.css'
-import '../queryForm/node_modules/slick-carousel/slick/slick-theme.css'
 import './ShowcaseSlider.css'
 
 export default class ShowcaseSlider extends Component{

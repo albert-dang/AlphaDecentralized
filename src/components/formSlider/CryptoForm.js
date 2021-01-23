@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import axios from 'axios'
 import ReportContext from '../ReportContext'
 import './QueryForm.css'
 
@@ -21,13 +20,9 @@ export default class CryptoForm extends Component{
         e.preventDefault()
         const{setData} = this.context
         const{symbol} = this.state
+        const url = `https://dangitsal.pythonanywhere.com/api/fullsheet?coin=${symbol}`
 
-        axios.post('/', {symbol})
-            .then((result) => {
-                console.log(result)
-            })
-
-        fetch('https://dangitsal.pythonanywhere.com/api/fullsheet?coin=BTC')
+        fetch(url)
             .then(response => response.json())
             .then((jsonData) => {
                 console.log(JSON.stringify(jsonData))

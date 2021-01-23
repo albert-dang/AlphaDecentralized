@@ -3,7 +3,7 @@ import Slider from 'react-slick'
 import MetricsReport from './MetricsReport'
 import '../queryForm/node_modules/slick-carousel/slick/slick.css'
 import '../queryForm/node_modules/slick-carousel/slick/slick-theme.css'
-import './Report.css'
+import './ReportSlider.css'
 
 export default class ReportSlider extends Component{
     render(){

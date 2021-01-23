@@ -39,8 +39,11 @@ export default class QueryForm extends Component{
         return(
             <div className='queryFormWrapper'>
                 <form className='queryForm' onSubmit={this.onSubmit}>
-                    <h1>Crypto</h1>
-                    <label className='SymbolLabel'>
+                    <select name='assetClass' id='assetClass' value={assetClass} onChange={this.onChange}>
+                        <option value='crypto'>Crypto</option>
+                        <option value='stocks'>Stocks</option>
+                    </select>
+                    <label className='symbolLabel'>
                         Symbol(s):
                         <input type='text' name='symbol' value={symbol} onChange={this.onChange}/>
                     </label>

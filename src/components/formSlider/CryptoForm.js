@@ -26,7 +26,8 @@ export default class CryptoForm extends Component{
         fetch('https://dangitsal.pythonanywhere.com/api/fullsheet')
             .then(response => response.json())
             .then((jsonData) => {
-            console.log(jsonData)
+                console.log(JSON.stringify(jsonData))
+                setData(JSON.stringify(jsonData))
             })
             .catch((error) => {
             console.error(error)

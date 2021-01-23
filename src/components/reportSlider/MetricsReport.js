@@ -7,9 +7,7 @@ const Metrics = () => {
 
   return (
     <div style={{marginTop: '30px'}}>
-      <h2 className="is-size-4">
-        <strong>Data</strong>: {report.data}
-      </h2>
+        <strong></strong>: {report.data}
     </div>
   )
 }

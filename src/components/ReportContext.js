@@ -1,18 +1,32 @@
-import React, {createContext, useState} from "react"
+import React, {Component, createContext, useState} from "react"
 
-export const ReportContext = createContext()
+const ReportContext = createContext()
 
-export const ReportProvider = ({children}) => {
-  const [data, setData] = useState('hello world')
+export class ReportProvider extends Component{
+  state = {
+      data: 'Analyze some assets!'
+  }
 
-  return (
-    <ReportContext.Provider
-      value={{
-        data,
-        setData
-      }}
-    >
-      {children}
-    </ReportContext.Provider>
-  )
-}
+  setData = (data) => {
+      this.setState((prevState) => (({data})))
+  }
+
+  render(){
+    const {children} = this.props
+    const {data} = this.state
+    const {setData} = this
+
+    return(
+        <ReportContext.Provider
+          value={{
+            data,
+            setData
+          }}
+        >
+          {children}
+        </ReportContext.Provider>
+      )
+    }
+  }
+
+export default ReportContext

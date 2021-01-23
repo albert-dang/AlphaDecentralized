@@ -1,9 +1,11 @@
 import React, {Component} from 'react'
 import axios from 'axios'
-import MetricsGet from '../reportSlider/MetricsGet'
+import {ReportContext} from '../ReportContext'
 import './QueryForm.css'
 
 export default class StockForm extends Component{
+    static contextType = ReportContext
+
     constructor(){
         super()
         this.state = {
@@ -28,7 +30,6 @@ export default class StockForm extends Component{
             .then(response => response.json())
             .then((jsonData) => {
             console.log(jsonData)
-            MetricsGet(jsonData)
             })
             .catch((error) => {
             console.error(error)
@@ -47,7 +48,13 @@ export default class StockForm extends Component{
                         <input type='text' name='symbol' value={symbol} onChange={this.onChange}/>
                     </label>
                     <div className='queryButtonWrapped'>
-                        <button className='queryButton' type='submit'>
+                        <button 
+                            className='queryButton'
+                            type='submit'
+                            onClick={() => {
+                                setData(jsonData)
+                            }}
+                        >
                             Analyze
                         </button>
                     </div>

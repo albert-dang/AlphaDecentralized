@@ -5,6 +5,7 @@ import './QueryForm.css'
 
 export default class StockForm extends Component{
     static contextType = ReportContext
+    dataPush = {}
 
     constructor(){
         super()
@@ -19,6 +20,7 @@ export default class StockForm extends Component{
 
     onSubmit = (e) => {
         e.preventDefault()
+        const{setData} = this.context
         const{symbol} = this.state
 
         axios.post('/', {symbol})
@@ -30,7 +32,7 @@ export default class StockForm extends Component{
             .then(response => response.json())
             .then((jsonData) => {
             console.log(jsonData)
-            const dataPush = jsonData
+            setData(jsonData)
             })
             .catch((error) => {
             console.error(error)
@@ -38,7 +40,6 @@ export default class StockForm extends Component{
     }
 
     render(){
-        const{setData} = this.context
         const{symbol} = this.state
 
         return(
@@ -53,9 +54,6 @@ export default class StockForm extends Component{
                         <button 
                             className='queryButton'
                             type='submit'
-                            onClick={() => {
-                                setData(dataPush)
-                            }}
                         >
                             Analyze
                         </button>

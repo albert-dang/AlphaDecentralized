@@ -31,8 +31,8 @@ export default class StockForm extends Component{
         fetch('https://dangitsal.pythonanywhere.com/api/fullsheet')
             .then(response => response.json())
             .then((jsonData) => {
-            console.log(jsonData)
-            setData(jsonData)
+            console.log(JSON.stringify(jsonData))
+            setData(JSON.stringify(jsonData))
             })
             .catch((error) => {
             console.error(error)

@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import Slider from 'react-slick'
-import CryptoForm from './CryptoForm'
-import StockForm from './StockForm'
+import QueryForm from './QueryForm'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import './FormSlider.css'
@@ -19,8 +18,7 @@ export default class FormSlider extends Component{
         return (
             <div className='formSliderWrapper'>
                 <Slider {...settings} className='formSlider'>
-                    <StockForm />
-                    <CryptoForm />
+                    <QueryForm />
                 </Slider>
             </div>
         )

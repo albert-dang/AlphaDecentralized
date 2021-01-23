@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import ReportContext from '../ReportContext'
 import './QueryForm.css'
 
-export default class CryptoForm extends Component{
+export default class QueryForm extends Component{
     static contextType = ReportContext
 
     constructor(){

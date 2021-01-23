@@ -13,9 +13,16 @@
 }
 
 .reportSlider .slick-dots{
-    color: white;
     padding-bottom: 46px;
     position: relative;
+}
+
+.reportSlider .slick-dots li button:before{
+    color: #331874;
+  }
+
+.reportSlider .slick-dots li.slick-active button:before{
+    color: lavender;
 }
 
 .signalsBody, .indicatorsBody, .metricsReport{

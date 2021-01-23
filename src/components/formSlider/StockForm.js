@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import axios from 'axios'
-import {ReportContext} from '../ReportContext'
+import ReportContext from '../ReportContext'
 import './QueryForm.css'
 
 export default class StockForm extends Component{

@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import axios from 'axios'
+import {ReportContext} from '../ReportContext'
 import './QueryForm.css'
 
 export default class StockForm extends Component{
@@ -27,6 +28,7 @@ export default class StockForm extends Component{
             .then(response => response.json())
             .then((jsonData) => {
             console.log(jsonData)
+            report.setData(jsonData)
             })
             .catch((error) => {
             console.error(error)

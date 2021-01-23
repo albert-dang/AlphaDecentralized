@@ -1,14 +1,17 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
 import App from './App'
+import {ReportProvider} from './components/ReportContext'
 import reportWebVitals from './reportWebVitals'
+import './index.css'
 
 document.title = 'Alpha, Decentralized.'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ReportProvider>
+      <App />
+    </ReportProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

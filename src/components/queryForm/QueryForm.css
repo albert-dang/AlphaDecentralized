@@ -67,5 +67,5 @@ select{
 .queryButtonWrapped{
     display: block;
     margin-bottom: 39px;
-    margin-left: 56vw;
+    left: 56vw;
 }

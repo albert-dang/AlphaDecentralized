@@ -28,7 +28,7 @@ export default class StockForm extends Component{
             .then(response => response.json())
             .then((jsonData) => {
             console.log(jsonData)
-            const report = useContext(UserContext)
+            const report = useContext(ReportContext)
             report.setData(jsonData)
             })
             .catch((error) => {

@@ -5,6 +5,7 @@
     cursor: grab;
     background-color: #1f1131;
     flex: 1;
+    padding-bottom: 64vh;
     text-align: center;
 }
 

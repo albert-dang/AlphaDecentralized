@@ -19,8 +19,7 @@ label{
 
 input{
     background-color: lavender;
-    border: 4px #423baa;
-    border-width: 6px;
+    border: 6px #423baa;
     border-style: solid;
     box-shadow: 13px 13px #1e0b52;
     display: block;
@@ -31,10 +30,9 @@ input{
 }
 
 select{
-    background-color: lavender;
-    align-self: right;
-    border: #270e4e;
-    border-width: 8px;
+    border: 4px #270e4e;
+    left: 50vh;
+    position: relative;
 }
 
 .queryFormWrapper{

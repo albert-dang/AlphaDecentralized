@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
 import Slider from 'react-slick'
 import MetricsReport from './MetricsReport'
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
+import '../queryForm/node_modules/slick-carousel/slick/slick.css'
+import '../queryForm/node_modules/slick-carousel/slick/slick-theme.css'
 import './Report.css'
 
 export default class ReportSlider extends Component{

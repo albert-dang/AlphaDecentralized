@@ -20,8 +20,8 @@ export default class CryptoForm extends Component{
     onSubmit = (e) => {
         e.preventDefault()
         const{setData} = this.context
-        const{assetClass} = this.state.assetClass
-        const{symbol} = this.state.symbol
+        const assetClass = this.state.assetClass
+        const symbol = this.state.symbol
 
         fetch(`https://dangitsal.pythonanywhere.com/api/fullsheet?${assetClass}=${symbol}`)
             .then(response => response.json())

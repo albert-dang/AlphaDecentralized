@@ -28,8 +28,6 @@ export default class StockForm extends Component{
             .then(response => response.json())
             .then((jsonData) => {
             console.log(jsonData)
-            const report = useContext(ReportContext)
-            report.setData(jsonData)
             })
             .catch((error) => {
             console.error(error)
@@ -38,6 +36,8 @@ export default class StockForm extends Component{
 
     render(){
         const{symbol} = this.state
+        const report = useContext(ReportContext)
+
         return(
             <div className='queryFormWrapper'>
                 <form className='queryForm' onSubmit={this.onSubmit}>
@@ -47,7 +47,7 @@ export default class StockForm extends Component{
                         <input type='text' name='symbol' value={symbol} onChange={this.onChange}/>
                     </label>
                     <div className='queryButtonWrapped'>
-                        <button className='queryButton' type='submit'>
+                        <button className='queryButton' type='submit' onClick={report.useContext(data)}>
                             Analyze
                         </button>
                     </div>

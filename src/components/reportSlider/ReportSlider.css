@@ -14,14 +14,15 @@
 
 .reportSlider .slick-dots{
     padding-bottom: 46px;
+    pointer-events: none;
     position: relative;
 }
 
-.reportSlider .slick-dots li button:before{
+.reportSlider .slick-dots li button::before{
     color: #423baa;
   }
 
-.reportSlider .slick-dots li.slick-active button:before{
+.reportSlider .slick-dots li.slick-active button::before{
     color: lavender;
 }
 

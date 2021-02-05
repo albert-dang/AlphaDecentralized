@@ -8,8 +8,8 @@ export default class QueryForm extends Component{
     constructor(){
         super()
         this.state = {
-            assetClass: 'crypto',
-            symbol: 'BTC, ETH, XLM'
+            assetClass: 'stock',
+            symbol: 'GOOGL'
         }
     }
 
@@ -41,11 +41,11 @@ export default class QueryForm extends Component{
             <div className='queryFormWrapper'>
                 <form className='queryForm' onSubmit={this.onSubmit}>
                     <select name='assetClass' id='assetClass' value={assetClass} onChange={this.onChange}>
-                        <option value='crypto'>Crypto</option>
-                        <option value='stocks'>Stocks</option>
+                        <option value='crypto'>Stocks</option>
+                        <option value='stocks'>Crypto</option>
                     </select>
                     <label className='symbolLabel'>
-                        Symbol(s):
+                        Symbol:
                         <input type='text' name='symbol' value={symbol} onChange={this.onChange}/>
                     </label>
                     <div className='queryButtonWrapped'>

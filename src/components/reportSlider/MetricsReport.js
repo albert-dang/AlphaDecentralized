@@ -7,7 +7,7 @@ const Metrics = () => {
 
   return (
     <div style={{marginTop: '30px'}}>
-        <strong></strong>: {report.data}
+        {report.JSON.stringify(data)}
     </div>
   )
 }

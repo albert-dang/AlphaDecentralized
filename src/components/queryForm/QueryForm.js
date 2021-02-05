@@ -27,7 +27,7 @@ export default class QueryForm extends Component{
             .then(response => response.json())
             .then((jsonData) => {
                 console.log(JSON.stringify(jsonData))
-                setData(JSON.stringify(jsonData))
+                setData(jsonData)
             })
             .catch((error) => {
             console.error(error)

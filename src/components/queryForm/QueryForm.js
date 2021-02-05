@@ -8,7 +8,7 @@ export default class QueryForm extends Component{
     constructor(){
         super()
         this.state = {
-            assetClass: 'stock',
+            assetClass: 'stocks',
             symbol: 'GOOGL'
         }
     }
@@ -23,7 +23,7 @@ export default class QueryForm extends Component{
         const assetClass = this.state.assetClass
         const symbol = this.state.symbol
 
-        fetch(`https://dangitsal.pythonanywhere.com/api/fullsheet?${assetClass}=${symbol}`)
+        fetch(`https://dangitsal.pythonanywhere.com/api/${assetClass}?symbol=${symbol}`)
             .then(response => response.json())
             .then((jsonData) => {
                 console.log(JSON.stringify(jsonData))

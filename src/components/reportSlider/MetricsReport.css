@@ -4,10 +4,12 @@
 
 .metricsHeadings{
     flex: 50%;
+    padding-right: 2px;
     text-align: right;
 }
 
 .metricsValues{
     flex: 50%;
+    padding-left: 2px;
     text-align: left;
 }

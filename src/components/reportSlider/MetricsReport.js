@@ -9,7 +9,7 @@ const Metrics = () => {
   return (
     <div className = 'metricsBody' style={{marginTop: '30px'}}>
       <div className = 'metricsHeadings'>      
-        <p>1Y Target Est (Analysts): </p>
+        <p>1Y Target (Analysts): </p>
         <p>Price: </p>
         <p>Ask: </p>
         <p>Bid: </p>
@@ -43,8 +43,8 @@ const Metrics = () => {
         <p>{report.data['Earnings Date']}</p>
         <p>{report.data['Ex-Divident Date']}</p>
         <p>{report.data['Forward Divident & Yield']}</p>
-        <p>{report.data['EPS (TTM)']}</p>
-        <p>{report.data['PE Ratio (TTM)']}</p>
+        <p>{report.data["EPS (TTM)"]}</p>
+        <p>{report.data["PE Ratio (TTM)"]}</p>
       </div>
     </div>
   )

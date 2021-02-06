@@ -7,23 +7,23 @@ const Metrics = () => {
 
   return (
     <div style={{marginTop: '30px'}}>
-      1Y Target Est (Analysts): {report.data['1y Target Est']}\n
-      Price: {report.data['Quote Price']}\n
-      Ask: {report.data['Ask']}\n
-      Bid: {report.data['Bid']}\n
-      Open: {report.data['Open']}\n
-      Previous Close: {report.data['Previous Close']}\n
-      Day's Range: {report.data["Day's Range"]}\n
-      52 Week Range: {report.data["52 Week Range"]}\n
-      Beta (5Y Monthly): {report.data['Beta (5Y Monthly)']}\n
-      Avg Volume: {report.data['Avg. Volume']}\n
-      Volume: {report.data['Volume']}\n
-      Market Cap: {report.data['Market Cap']}\n
-      Earnings Date: {report.data['Earnings Date']}\n
-      Ex-Dividend Date: {report.data['Ex-Divident Date']}\n
-      Forward Divident & Yield: {report.data['Forward Divident & Yield']}\n
-      Earnings Per Share (1Y Trailing): {report.data['EPS (TTM)']}\n
-      Price/Earnings Ratio (1Y Trailing): {report.data['PE Ratio (TTM)']}\n
+      <p>1Y Target Est (Analysts): {report.data['1y Target Est']}</p>
+      <p>Price: {report.data['Quote Price']}</p>
+      <p>Ask: {report.data['Ask']}</p>
+      <p>Bid: {report.data['Bid']}</p>
+      <p>Open: {report.data['Open']}</p>
+      <p>Previous Close: {report.data['Previous Close']}</p>
+      <p>Day's Range: {report.data["Day's Range"]}</p>
+      <p>52 Week Range: {report.data["52 Week Range"]}</p>
+      <p>Beta (5Y Monthly): {report.data['Beta (5Y Monthly)']}</p>
+      <p>Avg Volume: {report.data['Avg. Volume']}</p>
+      <p>Volume: {report.data['Volume']}</p>
+      <p>Market Cap: {report.data['Market Cap']}</p>
+      <p>Earnings Date: {report.data['Earnings Date']}</p>
+      <p>Ex-Dividend Date: {report.data['Ex-Divident Date']}</p>
+      <p>Forward Divident & Yield: {report.data['Forward Divident & Yield']}</p>
+      <p>Earnings Per Share (1Y Trailing): {report.data['EPS (TTM)']}</p>
+      <p>Price/Earnings Ratio (1Y Trailing): {report.data['PE Ratio (TTM)']}</p>
     </div>
   )
 }

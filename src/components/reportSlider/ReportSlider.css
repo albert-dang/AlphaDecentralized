@@ -36,10 +36,12 @@
 }
 
 .metricsHeaders{
+    display: block;
     flex: 50%;
     text-align: right;
 }
 
 .metricsValues{
+    display: block;
     text-align: left;
 }

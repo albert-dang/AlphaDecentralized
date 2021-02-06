@@ -6,7 +6,7 @@ const Metrics = () => {
   const report = useContext(ReportContext)
 
   return (
-    <div style={{marginTop: '30px'}}>
+    <div className = 'metricsBody' style={{marginTop: '30px'}}>
       <p>1Y Target Est (Analysts):&nbsp;&nbsp;&nbsp;&nbsp;{report.data['1y Target Est']}</p>
       <p>Price:&nbsp;&nbsp;&nbsp;&nbsp;{report.data['Quote Price']}</p>
       <p>Ask:&nbsp;&nbsp;&nbsp;&nbsp;{report.data['Ask']}</p>

@@ -30,3 +30,7 @@
 .signalsBody, .indicatorsBody, .metricsReport{
     padding-bottom: 64vh;
 }
+
+.metricsBody{
+    text-align: left;
+}

@@ -24,8 +24,8 @@ const Metrics = () => {
         <p>Earnings Date: </p>
         <p>Ex-Dividend Date: </p>
         <p>Forward Divident & Yield: </p>
-        <p>Earnings Per Share (1Y Trailing): </p>
-        <p>Price/Earnings Ratio (1Y Trailing): </p>
+        <p>Earnings Per Share: </p>
+        <p>Price/Earnings Ratio: </p>
       </div>
       <div className = 'metricsValues'>
         <p>{report.data['1y Target Est']}</p>

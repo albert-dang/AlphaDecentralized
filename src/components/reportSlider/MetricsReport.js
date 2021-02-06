@@ -7,7 +7,7 @@ const Metrics = () => {
 
   return (
     <div style={{marginTop: '30px'}}>
-        {(report.data)[0]}
+        {report.data['1y Target Est']}
     </div>
   )
 }

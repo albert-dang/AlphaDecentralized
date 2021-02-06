@@ -1,0 +1,13 @@
+.metricsBody{
+    display: flex;
+}
+
+.metricsHeaders{
+    display: block;
+    text-align: right
+}
+
+.metricsValues{
+    display: block;
+    text-align: left;
+}

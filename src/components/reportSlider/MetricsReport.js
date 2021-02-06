@@ -1,5 +1,6 @@
 import React, {useContext} from 'react'
 import ReportContext from '../ReportContext'
+import './MetricsReport.css'
 
 // This component displays name from Context
 const Metrics = () => {

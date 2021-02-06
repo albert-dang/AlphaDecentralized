@@ -7,23 +7,44 @@ const Metrics = () => {
 
   return (
     <div className = 'metricsBody' style={{marginTop: '30px'}}>
-      <p>1Y Target Est (Analysts):&nbsp;&nbsp;&nbsp;&nbsp;{report.data['1y Target Est']}</p>
-      <p>Price:&nbsp;&nbsp;&nbsp;&nbsp;{report.data['Quote Price']}</p>
-      <p>Ask:&nbsp;&nbsp;&nbsp;&nbsp;{report.data['Ask']}</p>
-      <p>Bid:&nbsp;&nbsp;&nbsp;&nbsp;{report.data['Bid']}</p>
-      <p>Open:&nbsp;&nbsp;&nbsp;&nbsp;{report.data['Open']}</p>
-      <p>Previous Close:&nbsp;&nbsp;&nbsp;&nbsp;{report.data['Previous Close']}</p>
-      <p>Day's Range:&nbsp;&nbsp;&nbsp;&nbsp;{report.data["Day's Range"]}</p>
-      <p>52 Week Range:&nbsp;&nbsp;&nbsp;&nbsp;{report.data["52 Week Range"]}</p>
-      <p>Beta (5Y Monthly):&nbsp;&nbsp;&nbsp;&nbsp;{report.data['Beta (5Y Monthly)']}</p>
-      <p>Avg Volume:&nbsp;&nbsp;&nbsp;&nbsp;{report.data['Avg. Volume']}</p>
-      <p>Volume:&nbsp;&nbsp;&nbsp;&nbsp;{report.data['Volume']}</p>
-      <p>Market Cap:&nbsp;&nbsp;&nbsp;&nbsp;{report.data['Market Cap']}</p>
-      <p>Earnings Date:&nbsp;&nbsp;&nbsp;&nbsp;{report.data['Earnings Date']}</p>
-      <p>Ex-Dividend Date:&nbsp;&nbsp;&nbsp;&nbsp;{report.data['Ex-Divident Date']}</p>
-      <p>Forward Divident & Yield:&nbsp;&nbsp;&nbsp;&nbsp;{report.data['Forward Divident & Yield']}</p>
-      <p>Earnings Per Share (1Y Trailing):&nbsp;&nbsp;&nbsp;&nbsp;{report.data['EPS (TTM)']}</p>
-      <p>Price/Earnings Ratio (1Y Trailing):&nbsp;&nbsp;&nbsp;&nbsp;{report.data['PE Ratio (TTM)']}</p>
+      <div className = 'metricsHeadings'>      
+        <p>1Y Target Est (Analysts):</p>
+        <p>Price:</p>
+        <p>Ask:</p>
+        <p>Bid:</p>
+        <p>Open:</p>
+        <p>Previous Close:</p>
+        <p>Day's Range:</p>
+        <p>52 Week Range:</p>
+        <p>Beta (5Y Monthly):</p>
+        <p>Avg Volume:</p>
+        <p>Volume:</p>
+        <p>Market Cap:</p>
+        <p>Earnings Date:</p>
+        <p>Ex-Dividend Date:</p>
+        <p>Forward Divident & Yield:</p>
+        <p>Earnings Per Share (1Y Trailing):</p>
+        <p>Price/Earnings Ratio (1Y Trailing):</p>
+      </div>
+      <div className = 'metricsValues'>
+        <p>{report.data['1y Target Est']}</p>
+        <p>{report.data['Quote Price']}</p>
+        <p>{report.data['Ask']}</p>
+        <p>{report.data['Bid']}</p>
+        <p>{report.data['Open']}</p>
+        <p>{report.data['Previous Close']}</p>
+        <p>{report.data["Day's Range"]}</p>
+        <p>{report.data["52 Week Range"]}</p>
+        <p>{report.data['Beta (5Y Monthly)']}</p>
+        <p>{report.data['Avg. Volume']}</p>
+        <p>{report.data['Volume']}</p>
+        <p>{report.data['Market Cap']}</p>
+        <p>{report.data['Earnings Date']}</p>
+        <p>{report.data['Ex-Divident Date']}</p>
+        <p>{report.data['Forward Divident & Yield']}</p>
+        <p>{report.data['EPS (TTM)']}</p>
+        <p>{report.data['PE Ratio (TTM)']}</p>
+      </div>
     </div>
   )
 }

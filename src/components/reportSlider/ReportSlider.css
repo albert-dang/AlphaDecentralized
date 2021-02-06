@@ -32,6 +32,15 @@
 }
 
 .metricsBody{
-    margin-left: 6vw;
+    display: flex;
+    margin: 6vw;
     text-align: left;
+}
+
+.metricsHeaders{
+    flex: 50%;
+}
+
+.metricsValues{
+    flex: 50%;
 }

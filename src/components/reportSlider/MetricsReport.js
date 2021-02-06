@@ -9,23 +9,23 @@ const Metrics = () => {
   return (
     <div className = 'metricsBody' style={{marginTop: '30px'}}>
       <div className = 'metricsHeadings'>      
-        <p>1Y Target Est (Analysts):</p>
-        <p>Price:</p>
-        <p>Ask:</p>
-        <p>Bid:</p>
-        <p>Open:</p>
-        <p>Previous Close:</p>
-        <p>Day's Range:</p>
-        <p>52 Week Range:</p>
-        <p>Beta (5Y Monthly):</p>
-        <p>Avg Volume:</p>
-        <p>Volume:</p>
-        <p>Market Cap:</p>
-        <p>Earnings Date:</p>
-        <p>Ex-Dividend Date:</p>
-        <p>Forward Divident & Yield:</p>
-        <p>Earnings Per Share (1Y Trailing):</p>
-        <p>Price/Earnings Ratio (1Y Trailing):</p>
+        <p>1Y Target Est (Analysts): </p>
+        <p>Price: </p>
+        <p>Ask: </p>
+        <p>Bid: </p>
+        <p>Open: </p>
+        <p>Previous Close: </p>
+        <p>Day's Range: </p>
+        <p>52 Week Range: </p>
+        <p>Beta (5Y Monthly): </p>
+        <p>Avg Volume: </p>
+        <p>Volume: </p>
+        <p>Market Cap: </p>
+        <p>Earnings Date: </p>
+        <p>Ex-Dividend Date: </p>
+        <p>Forward Divident & Yield: </p>
+        <p>Earnings Per Share (1Y Trailing): </p>
+        <p>Price/Earnings Ratio (1Y Trailing): </p>
       </div>
       <div className = 'metricsValues'>
         <p>{report.data['1y Target Est']}</p>

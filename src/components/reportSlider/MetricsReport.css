@@ -2,12 +2,12 @@
     display: flex;
 }
 
-.metricsHeaders{
-    display: block;
-    text-align: right
+.metricsHeadings{
+    flex: 50%;
+    text-align: right;
 }
 
 .metricsValues{
-    display: block;
+    flex: 50%;
     text-align: left;
 }

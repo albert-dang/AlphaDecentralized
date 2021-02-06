@@ -37,7 +37,7 @@
 
 .metricsHeaders{
     display: block;
-    text-align: right;
+    text-align: right !important;
 }
 
 .metricsValues{

@@ -5,12 +5,12 @@
     padding: 0;
     list-style: none;
     background-color: #331874;
-    border-bottom: 1px solid #ccc; 
-    border-top: 1px solid #ccc; 
+    border-bottom: 1px solid #270e4e; 
+    border-top: 1px solid #270e4e; 
 }
 
 #nav li {
-    float: left;
+    align-items: center;
 }
 
 #nav li a {
@@ -19,5 +19,5 @@
     text-decoration: none;
     font-weight: bold;
     color: lavender;
-    border-right: 1px solid #ccc;
+    border-right: 1px solid #270e4e;
 }

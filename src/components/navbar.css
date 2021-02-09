@@ -1,4 +1,4 @@
-.nav {
+#nav {
     width: 100%;
     float: left;
     margin: 0 0 3em 0;
@@ -9,11 +9,11 @@
     border-top: 1px solid #ccc; 
 }
 
-.nav li {
+#nav li {
     float: left;
 }
 
-.nav li a {
+#nav li a {
     display: block;
     padding: 8px 15px;
     text-decoration: none;

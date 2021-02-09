@@ -10,7 +10,7 @@
 }
 
 #nav li {
-    align-items: center;
+    float: left;
 }
 
 #nav li a {

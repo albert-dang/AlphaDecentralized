@@ -1,13 +1,13 @@
 import React, {useContext} from 'react'
 import ReportContext from '../ReportContext'
-import './MetricsReport.css'
+import './FundamentalReport.css'
 
 const Metrics = () => {
   const report = useContext(ReportContext)
 
   return (
-    <div className = 'metricsBody' style={{marginTop: '30px'}}>
-      <div className = 'metricsHeadings'>      
+    <div className = 'fundamentalBody' style={{marginTop: '30px'}}>
+      <div className = 'fundamentalHeadings'>      
         <p>1Y Target (Analysts): </p>
         <p>Price: </p>
         <p>Ask: </p>
@@ -26,7 +26,7 @@ const Metrics = () => {
         <p>Earnings Per Share: </p>
         <p>Price/Earnings Ratio: </p>
       </div>
-      <div className = 'metricsValues'>
+      <div className = 'fundamentalValues'>
         <p>{report.data['1y Target Est']}</p>
         <p>{report.data['Quote Price']}</p>
         <p>{report.data['Ask']}</p>

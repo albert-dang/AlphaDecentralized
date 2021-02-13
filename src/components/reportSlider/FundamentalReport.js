@@ -22,7 +22,7 @@ const Metrics = () => {
         <p>Market Cap: </p>
         <p>Earnings Date: </p>
         <p>Ex-Dividend Date: </p>
-        <p>Forward Divident & Yield: </p>
+        <p>Forward Dividend & Yield: </p>
         <p>Earnings Per Share: </p>
         <p>Price/Earnings Ratio: </p>
       </div>

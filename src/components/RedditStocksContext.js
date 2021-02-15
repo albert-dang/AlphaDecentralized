@@ -1,17 +1,6 @@
 import React, {Component, createContext} from "react"
 
 const RedditStocksContext = createContext()
-var redditStocks
-
-fetch(`https://dangitsal.pythonanywhere.com/api/redditstocks`)
-.then(response => response.json())
-.then((jsonData) => {
-    console.log(JSON.stringify(jsonData))
-    redditStocks = jsonData
-})
-.catch((error) => {
-console.error(error)
-})
 
 export class RedditStocksProvider extends Component{
   state = {

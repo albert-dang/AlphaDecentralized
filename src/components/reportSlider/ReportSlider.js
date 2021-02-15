@@ -25,6 +25,7 @@ export default class ReportSlider extends Component{
                     <div className='quantitative'>
                         <h2>Quantitative</h2>
                         <div className='quantitativeBody'>
+                            <h3>Top Mentioned Stocks (Reddit)</h3>
                             <RedditStocksReport className='redditStocksReport'/>
                         </div>
                     </div>

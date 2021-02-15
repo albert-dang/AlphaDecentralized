@@ -18,6 +18,7 @@ fetch(`https://dangitsal.pythonanywhere.com/api/redditstocks`)
 .then((jsonData) => {
     console.log(JSON.stringify(jsonData))
     redditStocks = jsonData
+    console.log(JSON.stringify(redditStocks))
 })
 .catch((error) => {
 console.error(error)
@@ -29,7 +30,6 @@ export default function RedditStocksReport(){
       <p>{today}</p>
       <div className = 'redditStocksBody' style={{marginTop: '30px'}}>
         <div className = 'tickersColumn'>
-          {console.log(JSON.stringify(redditStocks))}
           <p>1: {JSON.stringify(redditStocks)}</p>
           <p>2: {redditStocks}</p>
           <p>3: {redditStocks}</p>

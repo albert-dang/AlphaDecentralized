@@ -28,6 +28,7 @@ export default function RedditStocksReport(){
     <div className = 'redditStocksBody' style={{marginTop: '30px'}}>
       <p>{today}</p>
       <div className = 'tickersColumn'>
+        {console.log(JSON.stringify(redditstocks))}
         <p>1: {JSON.stringify(redditStocks)}</p>
         <p>2: {redditStocks}</p>
         <p>3: {redditStocks}</p>

@@ -8,7 +8,7 @@ const RedditStocks = () => {
   return (
     <div className = 'redditStocksBody' style={{marginTop: '30px'}}>
       <div className = 'tickersColumn'>      
-        <p>1: {report.data[0]}</p>
+        <p>1: {JSON.stringify(report.data[0])}</p>
         <p>2: {report.data[1]}</p>
         <p>3: {report.data[2]}</p>
         <p>4: {report.data[3]}</p>
@@ -20,7 +20,7 @@ const RedditStocks = () => {
         <p>10: {report.data[9]}</p>
       </div>
       <div className = 'mentionsColumn'>
-        <p>{report.data[0].mentions}</p>
+        <p>{report.data[0]}</p>
         <p>{report.data[1]}</p>
         <p>{report.data[2]}</p>
         <p>{report.data[3]}</p>

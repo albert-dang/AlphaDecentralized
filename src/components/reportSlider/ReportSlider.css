@@ -26,7 +26,3 @@
 .reportSlider .slick-dots li.slick-active button::before{
     color: lavender;
 }
-
-.quantitativeBody, .indicatorsBody, .fundamentalReport{
-    padding-bottom: 64vh;
-}

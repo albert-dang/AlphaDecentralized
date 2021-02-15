@@ -17,7 +17,7 @@ export default function RedditStocksReport(){
   return (
     <div className = 'redditStocksBody' style={{marginTop: '30px'}}>
       <div className = 'tickersColumn'>      
-        <p>1: {JSON.stringify(redditStocks[0])}</p>
+        <p>1: {JSON.stringify(redditStocks)}</p>
         <p>2: {redditStocks}</p>
         <p>3: {redditStocks}</p>
         <p>4: {redditStocks}</p>

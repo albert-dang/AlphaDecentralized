@@ -1,12 +1,12 @@
 import React, {Component, createContext} from "react"
 
-const redditstocks
+var redditstocks
 
 fetch(`https://dangitsal.pythonanywhere.com/api/redditstocks`)
 .then(response => response.json())
 .then((jsonData) => {
-    console.log(JSON.stringify(jsonData))
     redditstocks = jsonData
+    console.log(JSON.stringify(jsonData))
 })
 .catch((error) => {
 console.error(error)

@@ -16,7 +16,7 @@ const RedditStocks = () => {
   const redditStocks = useContext(RedditStocksContext)
 
   return (
-    <div>
+    <div className = 'redditStocksWrapper'>
       <h3>Top Mentioned Stocks on Reddit (24 Hours)</h3>
       <p>{today}</p>
       <div className = 'redditStocksBody' style={{marginTop: '30px'}}>

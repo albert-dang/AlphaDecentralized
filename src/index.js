@@ -10,11 +10,11 @@ document.title = 'Alpha, Decentralized.'
 
 ReactDOM.render(
   <React.StrictMode>
-    <RedditStocksProvider>
-      <FundamentalReportProvider>
+    <FundamentalReportProvider>
+      <RedditStocksProvider>
         <App />
-      </FundamentalReportProvider>
-    </RedditStocksProvider>
+      </RedditStocksProvider>
+    </FundamentalReportProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

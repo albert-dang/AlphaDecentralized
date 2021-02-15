@@ -2,6 +2,7 @@
     background-color: #331874;
     border: #270e4e;
     border-width: 8px;
+    border-style: solid;
     box-shadow: 15px 28px #120e24;
     height: fit-content;
 }

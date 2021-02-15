@@ -1,10 +1,19 @@
 import React, {Component, createContext} from "react"
 
+fetch(`https://dangitsal.pythonanywhere.com/api/redditstocks`)
+.then(response => response.json())
+.then((jsonData) => {
+    console.log(JSON.stringify(jsonData))
+})
+.catch((error) => {
+console.error(error)
+})
+
 const RedditStocksReportContext = createContext()
 
 export class RedditStocksReportProvider extends Component{
   state = {
-    data: ''
+    data: jsonData
   }
 
   setData = (data) => {
@@ -28,15 +37,5 @@ export class RedditStocksReportProvider extends Component{
     )
     }
   }
-
-fetch(`https://dangitsal.pythonanywhere.com/api/redditstocks`)
-.then(response => response.json())
-.then((jsonData) => {
-    console.log(JSON.stringify(jsonData))
-    RedditStocksReportContext.setData(jsonData)
-})
-.catch((error) => {
-console.error(error)
-})
 
 export default RedditStocksReportContext

@@ -9,10 +9,9 @@ var objToday = new Date(),
 	months = new Array('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'),
 	curMonth = months[objToday.getMonth()],
 	curYear = objToday.getFullYear()
-var today = '9AM ' + dayOfWeek + ' ' + dayOfMonth + ' of ' + curMonth + ', ' + curYear;
+var today = '9AM ' + dayOfWeek + ' ' + dayOfMonth + ' of ' + curMonth + ', ' + curYear
 
 var redditStocks
-
 fetch(`https://dangitsal.pythonanywhere.com/api/redditstocks`)
 .then(response => response.json())
 .then((jsonData) => {

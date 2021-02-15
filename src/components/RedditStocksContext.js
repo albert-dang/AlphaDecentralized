@@ -12,7 +12,6 @@ fetch(`https://dangitsal.pythonanywhere.com/api/redditstocks`)
 .catch((error) => {
 console.error(error)
 })
-console.log(JSON.stringify(redditStocks))
 
 export class RedditStocksProvider extends Component{
   state = {

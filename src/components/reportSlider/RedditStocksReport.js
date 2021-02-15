@@ -1,38 +1,45 @@
-import React, {useContext} from 'react'
-import RedditStocksReportContext from '../RedditStocksReportContext'
+import React from 'react'
 import './RedditStocksReport.css'
 
-const RedditStocks = () => {
-  const report = useContext(RedditStocksReportContext)
+var redditStocks
 
+fetch(`https://dangitsal.pythonanywhere.com/api/${assetClass}?symbol=${symbol}`)
+.then(response => response.json())
+.then((jsonData) => {
+    console.log(JSON.stringify(jsonData))
+    redditStocks = jsonData
+})
+.catch((error) => {
+console.error(error)
+})
+
+export default function RedditStocksReport(){
   return (
     <div className = 'redditStocksBody' style={{marginTop: '30px'}}>
       <div className = 'tickersColumn'>      
-        <p>1: {report.data[0]}</p>
-        <p>2: {report.data}</p>
-        <p>3: {report.data}</p>
-        <p>4: {report.data}</p>
-        <p>5: {report.data}</p>
-        <p>6: {report.data}</p>
-        <p>7: {report.data}</p>
-        <p>8: {report.data}</p>
-        <p>9: {report.data}</p>
-        <p>10: {report.data}</p>
+        <p>1: {redditStocks}</p>
+        <p>2: {redditStocks}</p>
+        <p>3: {redditStocks}</p>
+        <p>4: {redditStocks}</p>
+        <p>5: {redditStocks}</p>
+        <p>6: {redditStocks}</p>
+        <p>7: {redditStocks}</p>
+        <p>8: {redditStocks}</p>
+        <p>9: {redditStocks}</p>
+        <p>10: {redditStocks}</p>
       </div>
       <div className = 'mentionsColumn'>
-        <p>{report.data}</p>
-        <p>{report.data}</p>
-        <p>{report.data}</p>
-        <p>{report.data}</p>
-        <p>{report.data}</p>
-        <p>{report.data}</p>
-        <p>{report.data}</p>
-        <p>{report.data}</p>
-        <p>{report.data}</p>
-        <p>{report.data}</p>
+        <p>{redditStocks}</p>
+        <p>{redditStocks}</p>
+        <p>{redditStocks}</p>
+        <p>{redditStocks}</p>
+        <p>{redditStocks}</p>
+        <p>{redditStocks}</p>
+        <p>{redditStocks}</p>
+        <p>{redditStocks}</p>
+        <p>{redditStocks}</p>
+        <p>{redditStocks}</p>
       </div>
     </div>
   )
 }
-
-export default RedditStocks;

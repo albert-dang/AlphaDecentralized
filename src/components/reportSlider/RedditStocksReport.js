@@ -16,7 +16,8 @@ console.error(error)
 export default function RedditStocksReport(){
   return (
     <div className = 'redditStocksBody' style={{marginTop: '30px'}}>
-      <div className = 'tickersColumn'>      
+      <p>{new Date().format('m-d-Y')}</p>
+      <div className = 'tickersColumn'>
         <p>1: {JSON.stringify(redditStocks)}</p>
         <p>2: {redditStocks}</p>
         <p>3: {redditStocks}</p>

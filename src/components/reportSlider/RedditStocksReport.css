@@ -1,13 +1,11 @@
-.redditStocksWrapper{
+.redditStocksBody{
+    display: flex;
     background-color: #331874;
     border: #270e4e;
     border-width: 8px;
     box-shadow: 15px 28px #120e24;
+    height: fit-content;
     width: fit-content;
-}
-
-.redditStocksBody{
-    display: flex;
 }
 
 .tickersColumn{

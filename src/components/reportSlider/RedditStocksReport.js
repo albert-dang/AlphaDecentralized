@@ -17,10 +17,11 @@ const RedditStocks = () => {
 
   return (
     <div>
+      <h3>Top Mentioned Stocks on Reddit (24 Hours)</h3>
       <p>{today}</p>
       <div className = 'redditStocksBody' style={{marginTop: '30px'}}>
         <div className = 'tickersColumn'>
-          <p>1: {console.log(JSON.stringify(redditStocks))}</p>
+          <p>1: {JSON.stringify(redditStocks)}</p>
           <p>2: {redditStocks}</p>
           <p>3: {redditStocks}</p>
           <p>4: {redditStocks}</p>

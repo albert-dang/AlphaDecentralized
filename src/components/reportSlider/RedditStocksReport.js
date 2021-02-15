@@ -20,7 +20,7 @@ const RedditStocks = () => {
         <p>10: {report.data[9]}</p>
       </div>
       <div className = 'mentionsColumn'>
-        <p>{report.data[0]['mentions']}</p>
+        <p>{report.data[0].mentions}</p>
         <p>{report.data[1]}</p>
         <p>{report.data[2]}</p>
         <p>{report.data[3]}</p>

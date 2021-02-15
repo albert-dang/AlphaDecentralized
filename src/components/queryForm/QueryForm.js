@@ -1,9 +1,9 @@
 import React, {Component} from 'react'
-import ReportContext from '../ReportContext'
+import FundamentalReportContext from '../FundamentalReportContext'
 import './QueryForm.css'
 
 export default class QueryForm extends Component{
-    static contextType = ReportContext
+    static contextType = FundamentalReportContext
 
     constructor(){
         super()

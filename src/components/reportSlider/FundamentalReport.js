@@ -1,9 +1,9 @@
 import React, {useContext} from 'react'
-import ReportContext from '../ReportContext'
+import FundamentalReportContext from '../FundamentalReportContext'
 import './FundamentalReport.css'
 
-const Metrics = () => {
-  const report = useContext(ReportContext)
+const Fundamentals = () => {
+  const report = useContext(FundamentalReportContext)
 
   return (
     <div className = 'fundamentalBody' style={{marginTop: '30px'}}>
@@ -49,4 +49,4 @@ const Metrics = () => {
   )
 }
 
-export default Metrics;
+export default Fundamentals;

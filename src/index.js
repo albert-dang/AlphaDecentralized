@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
-import {ReportProvider} from './components/ReportContext'
+import {FundamentalReportProvider} from './components/FundamentalReportContext'
+import {RedditStocksReportProvider} from './components/RedditStocksReportContext'
 import reportWebVitals from './reportWebVitals'
 import './index.css'
 
@@ -9,9 +10,11 @@ document.title = 'Alpha, Decentralized.'
 
 ReactDOM.render(
   <React.StrictMode>
-    <ReportProvider>
-      <App />
-    </ReportProvider>
+    <FundamentalReportProvider>
+      <RedditStocksReportProvider>
+        <App />
+      </RedditStocksReportProvider>
+    </FundamentalReportProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

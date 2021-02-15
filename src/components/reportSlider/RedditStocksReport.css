@@ -1,0 +1,15 @@
+.redditStocksBody{
+    display: flex;
+}
+
+.tickersColumn{
+    flex: 50%;
+    padding-right: 6px;
+    text-align: right;
+}
+
+.mentionsColumn{
+    flex: 50%;
+    padding-left: 6px;
+    text-align: left;
+}

@@ -1,14 +1,14 @@
 import React, {Component, createContext} from "react"
 
-const ReportContext = createContext()
+const FundamentalReportContext = createContext()
 
-export class ReportProvider extends Component{
+export class FundamentalReportProvider extends Component{
   state = {
-      data: 'Analyze some assets!'
+    data: 'Analyze some assets!'
   }
 
   setData = (data) => {
-      this.setState((prevState) => (({data})))
+    this.setState((prevState) => (({data})))
   }
 
   render(){
@@ -17,16 +17,16 @@ export class ReportProvider extends Component{
     const {setData} = this
 
     return(
-        <ReportContext.Provider
+        <FundamentalReportContext.Provider
           value={{
             data,
             setData
           }}
         >
           {children}
-        </ReportContext.Provider>
+        </FundamentalReportContext.Provider>
       )
     }
   }
 
-export default ReportContext
+export default FundamentalReportContext

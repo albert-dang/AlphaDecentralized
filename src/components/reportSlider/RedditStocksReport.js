@@ -11,19 +11,19 @@ var objToday = new Date(),
 	curYear = objToday.getFullYear()
 var today = '9AM ' + dayOfWeek + ' ' + dayOfMonth + ' of ' + curMonth + ', ' + curYear
 
-var redditStocks
-fetch(`https://dangitsal.pythonanywhere.com/api/redditstocks`)
-.then(response => response.json())
-.then((jsonData) => {
-    console.log(JSON.stringify(jsonData))
-    redditStocks = jsonData
-    console.log(JSON.stringify(redditStocks))
-})
-.catch((error) => {
-console.error(error)
-})
-
 export default function RedditStocksReport(){
+  var redditStocks
+  fetch(`https://dangitsal.pythonanywhere.com/api/redditstocks`)
+  .then(response => response.json())
+  .then((jsonData) => {
+      console.log(JSON.stringify(jsonData))
+      redditStocks = jsonData
+  })
+  .catch((error) => {
+  console.error(error)
+  })
+  console.log(JSON.stringify(redditStocks))
+
   return (
     <div>
       <p>{today}</p>

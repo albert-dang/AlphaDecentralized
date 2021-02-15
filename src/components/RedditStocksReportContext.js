@@ -33,7 +33,7 @@ fetch(`https://dangitsal.pythonanywhere.com/api/redditstocks`)
 .then(response => response.json())
 .then((jsonData) => {
     console.log(JSON.stringify(jsonData))
-    setData(jsonData)
+    RedditStocksReportContext.setData(jsonData)
 })
 .catch((error) => {
 console.error(error)

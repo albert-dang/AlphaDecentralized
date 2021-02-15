@@ -13,7 +13,7 @@ const RedditStocksReportContext = createContext()
 
 export class RedditStocksReportProvider extends Component{
   state = {
-    data: jsonData
+    data: {jsonData}
   }
 
   setData = (data) => {

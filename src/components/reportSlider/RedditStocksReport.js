@@ -47,3 +47,5 @@ const RedditStocks = () => {
     </div>
   )
 }
+
+export default RedditStocks

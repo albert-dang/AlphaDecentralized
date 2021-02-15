@@ -49,4 +49,4 @@ const Fundamentals = () => {
   )
 }
 
-export default Fundamentals;
+export default Fundamentals

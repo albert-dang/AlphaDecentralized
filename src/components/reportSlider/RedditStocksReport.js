@@ -22,29 +22,29 @@ const RedditStocks = () => {
       <div className = 'redditStocksBody' style={{marginTop: '24x'}}>
         <div className = 'tickersColumn'>
           <p>Ticker</p>
-          <p>1: {JSON.stringify(redditStocks.data)}</p>
-          <p>2: {redditStocks.data}</p>
-          <p>3: {redditStocks.data}</p>
-          <p>4: {redditStocks.data}</p>
-          <p>5: {redditStocks.data}</p>
-          <p>6: {redditStocks.data}</p>
-          <p>7: {redditStocks.data}</p>
-          <p>8: {redditStocks.data}</p>
-          <p>9: {redditStocks.data}</p>
-          <p>10: {redditStocks.data}</p>
+          <p>1: {redditStocks.data[0]['ticker']}</p>
+          <p>2: {redditStocks.data[1]['ticker']}</p>
+          <p>3: {redditStocks.data[2]['ticker']}</p>
+          <p>4: {redditStocks.data[3]['ticker']}</p>
+          <p>5: {redditStocks.data[4]['ticker']}</p>
+          <p>6: {redditStocks.data[5]['ticker']}</p>
+          <p>7: {redditStocks.data[6]['ticker']}</p>
+          <p>8: {redditStocks.data[7]['ticker']}</p>
+          <p>9: {redditStocks.data[8]['ticker']}</p>
+          <p>10: {redditStocks.data[9]['ticker']}</p>
         </div>
         <div className = 'mentionsColumn'>
           <p>Mentions (Diluted)</p>
-          <p>{redditStocks.data}</p>
-          <p>{redditStocks.data}</p>
-          <p>{redditStocks.data}</p>
-          <p>{redditStocks.data}</p>
-          <p>{redditStocks.data}</p>
-          <p>{redditStocks.data}</p>
-          <p>{redditStocks.data}</p>
-          <p>{redditStocks.data}</p>
-          <p>{redditStocks.data}</p>
-          <p>{redditStocks.data}</p>
+          <p>{redditStocks.data[0]['mentions']}</p>
+          <p>{redditStocks.data[1]['mentions']}</p>
+          <p>{redditStocks.data[2]['mentions']}</p>
+          <p>{redditStocks.data[3]['mentions']}</p>
+          <p>{redditStocks.data[4]['mentions']}</p>
+          <p>{redditStocks.data[5]['mentions']}</p>
+          <p>{redditStocks.data[6]['mentions']}</p>
+          <p>{redditStocks.data[7]['mentions']}</p>
+          <p>{redditStocks.data[8]['mentions']}</p>
+          <p>{redditStocks.data[9]['mentions']}</p>
         </div>
       </div>
     </div>

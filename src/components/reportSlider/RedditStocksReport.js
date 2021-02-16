@@ -13,17 +13,6 @@ const RedditStocks = () => {
   curYear = objToday.getFullYear()
   var today = '9AM ' + dayOfWeek + ' ' + dayOfMonth + ' of ' + curMonth + ', ' + curYear
 
-  const{setData} = this.context
-  fetch(`https://dangitsal.pythonanywhere.com/api/redditstocks`)
-    .then(response => response.json())
-    .then((jsonData) => {
-        console.log(JSON.stringify(jsonData))
-        setData(jsonData)
-    })
-    .catch((error) => {
-    console.error(error)
-    })
-
   const redditStocks = useContext(RedditStocksContext)
 
   return (

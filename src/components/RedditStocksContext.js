@@ -16,6 +16,16 @@ export class RedditStocksProvider extends Component{
     const {data} = this.state
     const {setData} = this
 
+    fetch(`https://dangitsal.pythonanywhere.com/api/redditstocks`)
+      .then(response => response.json())
+      .then((jsonData) => {
+          console.log(JSON.stringify(jsonData))
+          setData(jsonData)
+      })
+      .catch((error) => {
+      console.error(error)
+      })
+
     return(
         <RedditStocksContext.Provider
           value={{

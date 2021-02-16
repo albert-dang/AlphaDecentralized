@@ -21,28 +21,28 @@ const RedditStocks = () => {
       <p>{today}</p>
       <div className = 'redditStocksBody' style={{marginTop: '30px'}}>
         <div className = 'tickersColumn'>
-          <p>1: {JSON.stringify(redditStocks)}</p>
-          <p>2: {redditStocks}</p>
-          <p>3: {redditStocks}</p>
-          <p>4: {redditStocks}</p>
-          <p>5: {redditStocks}</p>
-          <p>6: {redditStocks}</p>
-          <p>7: {redditStocks}</p>
-          <p>8: {redditStocks}</p>
-          <p>9: {redditStocks}</p>
-          <p>10: {redditStocks}</p>
+          <p>1: {JSON.stringify(redditStocks.data)}</p>
+          <p>2: {redditStocks.data}</p>
+          <p>3: {redditStocks.data}</p>
+          <p>4: {redditStocks.data}</p>
+          <p>5: {redditStocks.data}</p>
+          <p>6: {redditStocks.data}</p>
+          <p>7: {redditStocks.data}</p>
+          <p>8: {redditStocks.data}</p>
+          <p>9: {redditStocks.data}</p>
+          <p>10: {redditStocks.data}</p>
         </div>
         <div className = 'mentionsColumn'>
-          <p>{redditStocks}</p>
-          <p>{redditStocks}</p>
-          <p>{redditStocks}</p>
-          <p>{redditStocks}</p>
-          <p>{redditStocks}</p>
-          <p>{redditStocks}</p>
-          <p>{redditStocks}</p>
-          <p>{redditStocks}</p>
-          <p>{redditStocks}</p>
-          <p>{redditStocks}</p>
+          <p>{redditStocks.data}</p>
+          <p>{redditStocks.data}</p>
+          <p>{redditStocks.data}</p>
+          <p>{redditStocks.data}</p>
+          <p>{redditStocks.data}</p>
+          <p>{redditStocks.data}</p>
+          <p>{redditStocks.data}</p>
+          <p>{redditStocks.data}</p>
+          <p>{redditStocks.data}</p>
+          <p>{redditStocks.data}</p>
         </div>
       </div>
     </div>

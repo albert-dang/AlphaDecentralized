@@ -4,7 +4,7 @@ const RedditStocksContext = createContext()
 
 export class RedditStocksProvider extends Component{
   state = {
-    data: 'Loading, please wait.'
+    data: 'Loading...'
   }
 
   setData = (data) => {

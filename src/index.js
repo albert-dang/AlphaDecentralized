@@ -11,9 +11,7 @@ document.title = 'Alpha, Decentralized.'
 ReactDOM.render(
   <React.StrictMode>
     <FundamentalReportProvider>
-      <RedditStocksProvider>
-        <App />
-      </RedditStocksProvider>
+      <App />
     </FundamentalReportProvider>
   </React.StrictMode>,
   document.getElementById('root')

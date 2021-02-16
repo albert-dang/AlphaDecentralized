@@ -4,12 +4,15 @@
     border-width: 8px;
     border-style: solid;
     box-shadow: 15px 28px #120e24;
+    display: flex;
     height: fit-content;
+    justify-content: center;
     width: 76vw;
 }
 
 .redditStocksBody{
     display: flex;
+    justify-content: center;
 }
 
 .tickersColumn{

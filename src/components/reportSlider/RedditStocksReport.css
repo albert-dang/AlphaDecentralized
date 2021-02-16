@@ -9,9 +9,7 @@
 }
 
 .redditStocksBody{
-    align-items: center;
-    display: inline-flex;
-    justify-content: center;
+    display: flex;
 }
 
 .tickersColumn{

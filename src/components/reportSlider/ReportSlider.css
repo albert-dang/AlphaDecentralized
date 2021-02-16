@@ -20,7 +20,7 @@
 }
 
 .reportSlider .slick-dots li button::before{
-    color: #120e24;
+    color: black;
   }
 
 .reportSlider .slick-dots li.slick-active button::before{

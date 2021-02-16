@@ -6,7 +6,7 @@ const Fundamentals = () => {
   const report = useContext(FundamentalReportContext)
 
   return (
-    <div className = 'fundamentalBody' style={{marginTop: '30px'}}>
+    <div className = 'fundamentalBody' style={{marginTop: '24px'}}>
       <div className = 'fundamentalHeadings'>      
         <p>1Y Target (Analysts): </p>
         <p>Price: </p>

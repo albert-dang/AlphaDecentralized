@@ -13,13 +13,23 @@ const RedditStocks = () => {
   curYear = objToday.getFullYear()
   var today = '9AM ' + dayOfWeek + ' ' + dayOfMonth + ' of ' + curMonth + ', ' + curYear
 
+  fetch(`https://dangitsal.pythonanywhere.com/api/redditstocks`)
+    .then(response => response.json())
+    .then((jsonData) => {
+        console.log(JSON.stringify(jsonData))
+        setData(jsonData)
+    })
+    .catch((error) => {
+    console.error(error)
+    })
+
   const redditStocks = useContext(RedditStocksContext)
 
   return (
     <div className = 'redditStocksWrapper'>
       <h3>Top Mentioned Stocks on Reddit (24 Hours)</h3>
       <p>{today}</p>
-      <div className = 'redditStocksBody' style={{marginTop: '30px'}}>
+      <div className = 'redditStocksBody' style={{marginTop: '24x'}}>
         <div className = 'tickersColumn'>
           <p>1: {JSON.stringify(redditStocks.data)}</p>
           <p>2: {redditStocks.data}</p>

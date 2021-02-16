@@ -1,5 +1,14 @@
 const{setData} = this.context
 
+fetch(`https://dangitsal.pythonanywhere.com/api/redditstocks`)
+.then(response => response.json())
+.then((jsonData) => {
+    console.log(JSON.stringify(jsonData))
+    setData(jsonData)
+})
+.catch((error) => {
+console.error(error)
+})
 
 import React, {Component} from 'react'
 import RedditStocksContext from '../RedditStocksContext'

@@ -21,6 +21,7 @@ const RedditStocks = () => {
       <p>{today}</p>
       <div className = 'redditStocksBody' style={{marginTop: '24x'}}>
         <div className = 'tickersColumn'>
+          <p>Ticker</p>
           <p>1: {JSON.stringify(redditStocks.data)}</p>
           <p>2: {redditStocks.data}</p>
           <p>3: {redditStocks.data}</p>
@@ -33,6 +34,7 @@ const RedditStocks = () => {
           <p>10: {redditStocks.data}</p>
         </div>
         <div className = 'mentionsColumn'>
+          <p>Mentions (Diluted)</p>
           <p>{redditStocks.data}</p>
           <p>{redditStocks.data}</p>
           <p>{redditStocks.data}</p>

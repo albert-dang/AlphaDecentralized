@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
 import {FundamentalReportProvider} from './components/FundamentalReportContext'
-import {RedditStocksProvider} from './components/FundamentalReportContext'
+import {RedditStocksProvider} from './components/RedditStocksContext'
 import reportWebVitals from './reportWebVitals'
 import './index.css'
 

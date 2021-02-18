@@ -22,16 +22,16 @@ const RedditStocks = () => {
       <div className = 'redditStocksBody' style={{marginTop: '24x'}}>
         <div className = 'tickersColumn'>
           <p>Ticker</p>
-          <p>1: {redditStocks.data[0]['ticker']}</p>
-          <p>2: {redditStocks.data[1]['ticker']}</p>
-          <p>3: {redditStocks.data[2]['ticker']}</p>
-          <p>4: {redditStocks.data[3]['ticker']}</p>
-          <p>5: {redditStocks.data[4]['ticker']}</p>
-          <p>6: {redditStocks.data[5]['ticker']}</p>
-          <p>7: {redditStocks.data[6]['ticker']}</p>
-          <p>8: {redditStocks.data[7]['ticker']}</p>
-          <p>9: {redditStocks.data[8]['ticker']}</p>
-          <p>10: {redditStocks.data[9]['ticker']}</p>
+          <p>{redditStocks.data[0]['ticker']}</p>
+          <p>{redditStocks.data[1]['ticker']}</p>
+          <p>{redditStocks.data[2]['ticker']}</p>
+          <p>{redditStocks.data[3]['ticker']}</p>
+          <p>{redditStocks.data[4]['ticker']}</p>
+          <p>{redditStocks.data[5]['ticker']}</p>
+          <p>{redditStocks.data[6]['ticker']}</p>
+          <p>{redditStocks.data[7]['ticker']}</p>
+          <p>{redditStocks.data[8]['ticker']}</p>
+          <p>{redditStocks.data[9]['ticker']}</p>
         </div>
         <div className = 'mentionsColumn'>
           <p>Mentions (Diluted)</p>

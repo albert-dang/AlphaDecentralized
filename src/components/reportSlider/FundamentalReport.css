@@ -9,12 +9,9 @@
     width: 76vw;
 }
 
-.fundamentalH3{
-    margin-bottom: 4px;
-}
-
 .fundamentalBody{
     display: flex;
+    margin: 0px;
 }
 
 .fundamentalHeadings{

@@ -1,4 +1,3 @@
-import Navbar from './components/Navbar'
 import React from 'react'
 import QueryForm from './components/queryForm/QueryForm'
 import ReportSlider from './components/reportSlider/ReportSlider'
@@ -9,7 +8,6 @@ export default function App(){
   return (
     <div className='appWrapper'>
       <>
-        <Navbar />
         <QueryForm />
         <ReportSlider />
         <ShowcaseSlider />

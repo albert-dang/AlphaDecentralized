@@ -18,8 +18,8 @@ export default class ReportSlider extends Component{
         return (
             <div className='reportWrapper'>
                 <Slider {...settings} className='reportSlider'>
-                    <div className='fundamentals'>
-                        <h2>Fundamentals</h2>
+                    <div className='financials'>
+                        <h2>Financials</h2>
                         <FundamentalReport className='fundamentalReport'/>
                     </div>
                     <div className='quantitative'>

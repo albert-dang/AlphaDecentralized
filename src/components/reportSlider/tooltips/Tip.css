@@ -10,11 +10,11 @@
     margin: auto;
     background: black;
     color: white;
-    width: 50%;
+    width: 31%;
     padding: 5px;
   }
   .popup-arrow {
-    color: rgb(255, 255, 255);
+    color: black;
   }
   [role='tooltip'].popup-content {
     width: 200px;

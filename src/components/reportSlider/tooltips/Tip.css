@@ -10,14 +10,14 @@
     margin: auto;
     background: black;
     color: white;
-    width: 31%;
+    width: 50%;
     padding: 5px;
   }
   .popup-arrow {
     color: black;
   }
   [role='tooltip'].popup-content {
-    width: 200px;
+    width: 16vw;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
   }
   

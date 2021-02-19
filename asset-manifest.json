@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/AlphaDecentralized/static/css/main.ea814523.chunk.css",
-    "main.js": "/AlphaDecentralized/static/js/main.11716c1c.chunk.js",
-    "main.js.map": "/AlphaDecentralized/static/js/main.11716c1c.chunk.js.map",
+    "main.js": "/AlphaDecentralized/static/js/main.ac6ed6d5.chunk.js",
+    "main.js.map": "/AlphaDecentralized/static/js/main.ac6ed6d5.chunk.js.map",
     "runtime-main.js": "/AlphaDecentralized/static/js/runtime-main.cc78864f.js",
     "runtime-main.js.map": "/AlphaDecentralized/static/js/runtime-main.cc78864f.js.map",
     "static/css/2.0ed7d64a.chunk.css": "/AlphaDecentralized/static/css/2.0ed7d64a.chunk.css",
@@ -23,6 +23,6 @@
     "static/css/2.0ed7d64a.chunk.css",
     "static/js/2.3cb2b30b.chunk.js",
     "static/css/main.ea814523.chunk.css",
-    "static/js/main.11716c1c.chunk.js"
+    "static/js/main.ac6ed6d5.chunk.js"
   ]
 }

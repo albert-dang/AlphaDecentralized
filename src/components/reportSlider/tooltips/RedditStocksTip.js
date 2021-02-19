@@ -10,7 +10,7 @@ const RedditStocksTip = () => (
       position="right center"
       closeOnDocumentClick
     >
-      <span>Mentions are counted from the top threads last 24 hours, not including "more comments" from any comment tree.
+      <span>Mentions are counted from the top threads in the last 24 hours, not including "more comments" from any comment tree.
           <br/>
           Subreddits include: r/WallStreetBets, r/stocks, r/investing, r/smallstreetbets</span>
     </Popup>

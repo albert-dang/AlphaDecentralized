@@ -7,7 +7,7 @@ const Fundamentals = () => {
 
   return (
     <div className = 'fundamentalWrapper'>
-      <h3>Fundamentals</h3>
+      <h3 className = 'fundamentalH3'>Fundamentals</h3>
       <div className = 'fundamentalBody' style={{marginTop: '24px'}}>
         <div className = 'fundamentalHeadings'>      
           <p>1Y Target (Analysts): </p>

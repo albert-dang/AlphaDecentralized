@@ -1,5 +1,6 @@
 import React, {useContext} from 'react'
 import FundamentalReportContext from '../FundamentalReportContext'
+import FundamentalTip from './tooltips/FundamentalTip'
 import './FundamentalReport.css'
 
 const Fundamentals = () => {
@@ -8,7 +9,8 @@ const Fundamentals = () => {
   return (
     <div className = 'fundamentalWrapper'>
       <h3 className = 'fundamentalH3'>Fundamentals</h3>
-      <div className = 'fundamentalBody' style={{marginTop: '24px'}}>
+      <FundamentalTip/>
+      <div className = 'fundamentalBody' style={{marginTop: '16px'}}>
         <div className = 'fundamentalHeadings'>      
           <p>1Y Target (Analysts): </p>
           <p>Price: </p>

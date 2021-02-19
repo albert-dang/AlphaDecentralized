@@ -1,4 +1,4 @@
-.fundamentalWrapper{
+.analystReportWrapper{
     background-color: #331874;
     border: #270e4e;
     border-width: 8px;
@@ -9,18 +9,17 @@
     width: 76vw;
 }
 
-.fundamentalBody{
+.analystReportBody{
     display: flex;
-    margin-top: -8px;
 }
 
-.fundamentalHeadings{
+.analystHeadings{
     flex: 50%;
     padding-right: 6px;
     text-align: right;
 }
 
-.fundamentalValues{
+.analystValues{
     flex: 50%;
     padding-left: 6px;
     text-align: left;

@@ -43,6 +43,7 @@ input{
     border-width: 8px;
     border-style: solid;
     box-shadow: 15px 28px #120e24;
+    padding-top: 16px;
     width: fit-content;
 }
 

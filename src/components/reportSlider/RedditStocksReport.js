@@ -19,6 +19,7 @@ const RedditStocks = () => {
   return (
     <div className = 'redditStocksWrapper'>
       <h3>Top Mentioned Stocks on Reddit</h3>
+      <RedditStocksTip/>
       <p>{today}</p>
       <div className = 'redditStocksBody' style={{marginTop: '24x'}}>
         <div className = 'tickersColumn'>
@@ -48,7 +49,6 @@ const RedditStocks = () => {
           <p>{redditStocks.data[9]['mentions']}</p>
         </div>
       </div>
-      <RedditStocksTip/>
     </div>
   )
 }

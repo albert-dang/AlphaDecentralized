@@ -5,7 +5,7 @@ import './Tip.css'
 const RedditStocksTip = () => (
     <Popup
       trigger={open => (
-        <button className="button">Data Info{open ? 'Opened' : 'Closed'}</button>
+        <button className="tipbutton">Data Info</button>
       )}
       position="right center"
       closeOnDocumentClick

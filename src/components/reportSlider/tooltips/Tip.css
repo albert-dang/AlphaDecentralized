@@ -1,3 +1,11 @@
+.tipbutton{
+    background-color: #423baa;
+    border: 0;
+    box-shadow: 11px 11px #1e0b52;
+    color: white;
+    cursor: pointer;
+}
+
 .popup-content {
     margin: auto;
     background: rgb(255, 255, 255);

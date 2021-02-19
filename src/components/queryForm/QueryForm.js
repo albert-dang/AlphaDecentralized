@@ -8,7 +8,6 @@ export default class QueryForm extends Component{
     constructor(){
         super()
         this.state = {
-            assetClass: 'stocks',
             symbol: 'GOOGL'
         }
     }
@@ -35,15 +34,10 @@ export default class QueryForm extends Component{
     }
 
     render(){
-        const{assetClass} = this.state.assetClass
         const{symbol} = this.state.symbol
         return(
             <div className='queryFormWrapper'>
                 <form className='queryForm' onSubmit={this.onSubmit}>
-                    <select name='assetClass' id='assetClass' value={assetClass} onChange={this.onChange}>
-                        <option value='crypto'>Stocks</option>
-                        <option value='stocks'>Crypto</option>
-                    </select>
                     <label className='symbolLabel'>
                         Symbol:
                         <input type='text' name='symbol' value={symbol} onChange={this.onChange}/>

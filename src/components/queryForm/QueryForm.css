@@ -29,13 +29,6 @@ input{
     width: 246px;
 }
 
-select{
-    background-color: lavender;
-    border: 4px #270e4e;
-    left: 213px;
-    position: relative;
-}
-
 .queryFormWrapper{
     background-color: #1f1131;
     padding-bottom: 28px;

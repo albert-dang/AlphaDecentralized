@@ -22,7 +22,7 @@ export default class QueryForm extends Component{
         const assetClass = this.state.assetClass
         const symbol = this.state.symbol
 
-        fetch(`https://dangitsal.pythonanywhere.com/api/${assetClass}?symbol=${symbol}`)
+        fetch(`https://dangitsal.pythonanywhere.com/api/stocks?symbol=${symbol}`)
             .then(response => response.json())
             .then((jsonData) => {
                 console.log(JSON.stringify(jsonData))

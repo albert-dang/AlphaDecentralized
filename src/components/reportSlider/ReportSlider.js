@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import Slider from 'react-slick'
 import FundamentalReport from './FundamentalReport'
 import RedditStocksReport from './RedditStocksReport'
+import About from './About'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import './ReportSlider.css'
@@ -29,7 +30,8 @@ export default class ReportSlider extends Component{
                         </div>
                     </div>
                     <div className='indicators'>
-                        <h2>Indicators</h2>
+                        <h2>About</h2>
+                        <About/>
                         <div className='indicatorsBody'></div>
                     </div>
                 </Slider>

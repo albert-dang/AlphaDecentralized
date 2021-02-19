@@ -1,5 +1,6 @@
 import React, {useContext} from 'react'
 import RedditStocksContext from '../RedditStocksContext'
+import RedditStocksTip from './tooltips/RedditStocksTip'
 import './RedditStocksReport.css'
 
 const RedditStocks = () => {
@@ -17,7 +18,7 @@ const RedditStocks = () => {
 
   return (
     <div className = 'redditStocksWrapper'>
-      <h3>Top Mentioned Stocks on Reddit (24 Hours)</h3>
+      <h3>Top Mentioned Stocks on Reddit</h3>
       <p>{today}</p>
       <div className = 'redditStocksBody' style={{marginTop: '24x'}}>
         <div className = 'tickersColumn'>
@@ -34,7 +35,7 @@ const RedditStocks = () => {
           <p>{redditStocks.data[9]['ticker']}</p>
         </div>
         <div className = 'mentionsColumn'>
-          <p>Mentions (Diluted)</p>
+          <p>Mentions</p>
           <p>{redditStocks.data[0]['mentions']}</p>
           <p>{redditStocks.data[1]['mentions']}</p>
           <p>{redditStocks.data[2]['mentions']}</p>
@@ -47,6 +48,7 @@ const RedditStocks = () => {
           <p>{redditStocks.data[9]['mentions']}</p>
         </div>
       </div>
+      <RedditStocksTip/>
     </div>
   )
 }

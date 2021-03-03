@@ -16,4 +16,4 @@ const RedditStocksTip = () => (
     </Popup>
   )
 
-  export default RedditStocksTip
+export default RedditStocksTip

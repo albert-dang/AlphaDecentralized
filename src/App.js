@@ -1,7 +1,6 @@
 import React from 'react'
 import QueryForm from './components/queryForm/QueryForm'
 import ReportSlider from './components/reportSlider/ReportSlider'
-import ShowcaseSlider from './components/poweredByShowcase/ShowcaseSlider'
 import './App.css'
 
 export default function App(){
@@ -10,7 +9,7 @@ export default function App(){
       <>
         <QueryForm />
         <ReportSlider />
-        <ShowcaseSlider />
+        <div/>
       </>
     </div>
   );

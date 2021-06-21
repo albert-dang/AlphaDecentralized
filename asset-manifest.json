@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/AlphaDecentralized/static/css/main.a801de7c.chunk.css",
-    "main.js": "/AlphaDecentralized/static/js/main.0b24c5ca.chunk.js",
-    "main.js.map": "/AlphaDecentralized/static/js/main.0b24c5ca.chunk.js.map",
-    "runtime-main.js": "/AlphaDecentralized/static/js/runtime-main.bc4ddfda.js",
-    "runtime-main.js.map": "/AlphaDecentralized/static/js/runtime-main.bc4ddfda.js.map",
+    "main.css": "/AlphaDecentralized/static/css/main.d4e35970.chunk.css",
+    "main.js": "/AlphaDecentralized/static/js/main.e1330d2d.chunk.js",
+    "main.js.map": "/AlphaDecentralized/static/js/main.e1330d2d.chunk.js.map",
+    "runtime-main.js": "/AlphaDecentralized/static/js/runtime-main.7f9fc912.js",
+    "runtime-main.js.map": "/AlphaDecentralized/static/js/runtime-main.7f9fc912.js.map",
     "static/css/2.0ed7d64a.chunk.css": "/AlphaDecentralized/static/css/2.0ed7d64a.chunk.css",
     "static/js/2.37a03d89.chunk.js": "/AlphaDecentralized/static/js/2.37a03d89.chunk.js",
     "static/js/2.37a03d89.chunk.js.map": "/AlphaDecentralized/static/js/2.37a03d89.chunk.js.map",
-    "static/js/3.60bafa72.chunk.js": "/AlphaDecentralized/static/js/3.60bafa72.chunk.js",
-    "static/js/3.60bafa72.chunk.js.map": "/AlphaDecentralized/static/js/3.60bafa72.chunk.js.map",
+    "static/js/3.951512f6.chunk.js": "/AlphaDecentralized/static/js/3.951512f6.chunk.js",
+    "static/js/3.951512f6.chunk.js.map": "/AlphaDecentralized/static/js/3.951512f6.chunk.js.map",
     "index.html": "/AlphaDecentralized/index.html",
     "static/css/2.0ed7d64a.chunk.css.map": "/AlphaDecentralized/static/css/2.0ed7d64a.chunk.css.map",
-    "static/css/main.a801de7c.chunk.css.map": "/AlphaDecentralized/static/css/main.a801de7c.chunk.css.map",
+    "static/css/main.d4e35970.chunk.css.map": "/AlphaDecentralized/static/css/main.d4e35970.chunk.css.map",
     "static/js/2.37a03d89.chunk.js.LICENSE.txt": "/AlphaDecentralized/static/js/2.37a03d89.chunk.js.LICENSE.txt",
     "static/media/slick-theme.css": "/AlphaDecentralized/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.bc4ddfda.js",
+    "static/js/runtime-main.7f9fc912.js",
     "static/css/2.0ed7d64a.chunk.css",
     "static/js/2.37a03d89.chunk.js",
-    "static/css/main.a801de7c.chunk.css",
-    "static/js/main.0b24c5ca.chunk.js"
+    "static/css/main.d4e35970.chunk.css",
+    "static/js/main.e1330d2d.chunk.js"
   ]
 }

@@ -1,1 +1,1 @@
-# AlphaDecentralized
+# Alpha Decentralized

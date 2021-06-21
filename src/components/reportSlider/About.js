@@ -2,7 +2,7 @@ export default function About(){
     return(
         <div className='aboutWrapper'>
             <h3>Finding alpha.</h3>
-            <p><a href='https://github.com/dangitsal/AlphaDecentralized'>Open source.</a></p>
+            <p><a href='https://github.com/dangitsal'>Open source.</a></p>
             <br/>
             <p>For business inquiries, collaboration or feedback, please email <a href='mailto:hello@albertdang.ca'>hello@albertdang.ca</a></p>
             <br/>
